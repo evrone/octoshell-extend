@@ -1,0 +1,5 @@
+readonly:
+  adapter: postgresql
+  database: octoshell_developement
+  username: octoshell
+  pool: 5

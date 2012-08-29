@@ -1,0 +1,2 @@
+require './octoshell'
+run Octoshell
