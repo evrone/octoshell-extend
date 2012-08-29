@@ -5,4 +5,6 @@ require 'active_record'
 
 # files
 require File.expand_path('config/database')
-Dir[File.dirname(__FILE__)+"/models/*.rb"].each { |file| require file }
+%w(models scripts).each do |dir|
+  Dir["#{File.dirname(__FILE__)}/#{dir}/*.rb"].each { |f| require f }
+end
