@@ -5,13 +5,16 @@ class Task < ActiveRecord::Base
   
   def perform
     procedure = self.procedure.camelize.constantize.new(self)
-    self.success = procedure.perform
+    self.state = procedure.perform ? 'successed' : 'failed'
     self.comment = procedure.comment
     save!
     Resque.enqueue(TasksCallbacksWorker, id)
   rescue => e
-    self.success = false
-    self.comment = e.to_s
+    self.state = 'failed'
+    error = ""
+    error << e.to_s
+    error << e.backtrace.join("\n")
+    self.comment = error
     save!
   end
 end
