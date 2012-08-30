@@ -1,0 +1,2 @@
+class DelUser < Procedure
+end

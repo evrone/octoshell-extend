@@ -1,0 +1,2 @@
+class AddOpenkey < Procedure
+end

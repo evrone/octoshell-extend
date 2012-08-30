@@ -2,7 +2,7 @@ class Example
   attr_reader :result
   
   def run
-    # procedure
+    # get result
     @result = "255 Tb"
   end
 end

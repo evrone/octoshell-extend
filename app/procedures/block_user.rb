@@ -1,0 +1,2 @@
+class BlockUser < Procedure
+end

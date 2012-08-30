@@ -1,6 +1,8 @@
 require File.expand_path('init')
 
 class Octoshell < Sinatra::Base
+  set :views, settings.root + '/app/views'
+  
   get '/' do
     redirect '/example'
   end

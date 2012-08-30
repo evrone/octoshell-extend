@@ -1,0 +1,2 @@
+class DelOpenkey < Procedure
+end
