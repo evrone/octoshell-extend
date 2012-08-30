@@ -2,6 +2,7 @@
 require 'sinatra'
 require 'slim'
 require 'active_record'
+require 'active_support'
 
 # files
 require File.expand_path('config/database')

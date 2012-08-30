@@ -5,7 +5,7 @@ set :rvm_ruby_string, '1.9.3@octoshell-expand'
 
 set :application, "octoshell-expand"
 set :domain, "evrone@v1.parallel.ru"
-set :repository,  "git@github.com:evrone/octoshell-expand.git"
+set :repository,  "git@github.com:evrone/octoshell-extend.git"
 set :branch, "master"
 set :use_sudo, false
 set :deploy_to, "/var/www/#{application}"

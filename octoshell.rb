@@ -5,10 +5,9 @@ class Octoshell < Sinatra::Base
     redirect '/example'
   end
   
-  get '/example' do
-    example = Example.new
-    example.run
-    @result = example.result
-    slim :example
+  get '/:name' do |name|
+    @script = name.camelize.constantize.new
+    @script.run
+    slim name.to_sym
   end
 end

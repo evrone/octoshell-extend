@@ -58,6 +58,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  activesupport
   capistrano
   pg
   rvm-capistrano
