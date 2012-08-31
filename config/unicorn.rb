@@ -7,7 +7,7 @@ worker_processes 2
 
 # listen on both a Unix domain socket and a TCP port,
 # we use a shorter backlog for quicker failover when busy
-listen "/tmp/msu.socket", :backlog => 64
+listen "/tmp/octoshell-extend.socket", :backlog => 64
 
 # Preload our app for more speed
 preload_app true
