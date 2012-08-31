@@ -80,3 +80,9 @@ In `new_script.slim` you will have a `@script` variable.
 ~~~slim
 p Free space: #{@script.result}
 ~~~
+
+### Deploy
+
+~~~
+cap deploy
+~~~

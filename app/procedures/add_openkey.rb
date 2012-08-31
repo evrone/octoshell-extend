@@ -22,7 +22,7 @@ class AddOpenkey < Procedure
 private
   
   def cluster
-    task.resource.cluster_user.cluster
+    cluster_user.cluster
   end
   
   def request
