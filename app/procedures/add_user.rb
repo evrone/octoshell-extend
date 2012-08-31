@@ -1,2 +1,3 @@
 class AddUser < Procedure
+  
 end
