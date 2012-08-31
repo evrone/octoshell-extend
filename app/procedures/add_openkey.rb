@@ -1,6 +1,4 @@
 class AddOpenkey < Procedure
-  attr_accessor :host, :project_login, :user_login, :public_key
-  
   def host
     cluster.host
   end
