@@ -4,7 +4,7 @@ class Octoshell < Sinatra::Base
   set :views, settings.root + '/app/views'
   
   get '/run/' do
-    redirect '/example'
+    redirect '/run/example'
   end
   
   get '/run/:name' do |name|
