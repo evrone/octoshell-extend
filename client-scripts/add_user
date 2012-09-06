@@ -1,0 +1,4 @@
+#!/bin/sh
+
+useradd -m "$1" && sudo -u "$1" -c "cd '/home/$1'; ssh-keygen -q -t rsa -N '' && cat .ssh/id_rsa >> .ssh/authorized_keys"
+
