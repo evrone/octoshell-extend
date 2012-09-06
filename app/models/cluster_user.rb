@@ -1,7 +1,6 @@
 class ClusterUser < ActiveRecord::Base
-  belongs_to :cluster
-  belongs_to :project
-  belongs_to :request # last request
-  has_many :tasks, as: :resource
+  belongs_to :account
+  belongs_to :cluster_project
   has_many :accesses
+  has_many :tasks, as: :resource
 end

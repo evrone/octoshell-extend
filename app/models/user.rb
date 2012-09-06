@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  has_many :accounts
+  has_many :accounts, inverse_of: :user
   has_many :credentials
   has_many :requests
   has_many :owned_projects, class_name: :Project
