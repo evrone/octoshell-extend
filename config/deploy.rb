@@ -1,6 +1,5 @@
 require 'bundler/capistrano'
 require "rvm/capistrano"
-require 'capistrano-unicorn'
 require 'capistrano-resque'
 
 set :rvm_type, :system
@@ -30,6 +29,9 @@ before "deploy:migrations", "deploy:add_ssh_key"
 # set :whenever_command, "bundle exec whenever"
 # require "whenever/capistrano"
 
+require 'capistrano-unicorn'
+
+after "deploy:restart", "resque:restart"
 after "deploy:restart", "resque:restart"
 
 namespace :deploy do

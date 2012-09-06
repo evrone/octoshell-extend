@@ -12,3 +12,4 @@ gem 'capistrano-unicorn', :require => false
 gem 'unicorn'
 gem 'cocaine'
 gem 'resque'
+gem 'rake'
