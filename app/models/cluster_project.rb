@@ -4,4 +4,8 @@ class ClusterProject < ActiveRecord::Base
   has_many :cluster_users
   has_many :tasks, as: :resource
   has_many :requests
+  
+  def request
+    requests.where(state: 'active').last
+  end
 end

@@ -11,6 +11,34 @@ class Procedure
   end
 end
 
+class ProjectProcedure < Procedure
+  def host
+    cluster.host
+  end
+  
+  def project_login
+    cluster_project.username
+  end
+  
+  def additional_attributes
+    Hash[request.request_properties.map { |p| [p.name.to_sym, p.value] }]
+  end
+  
+private
+  
+  def cluster
+    cluster_project.cluster
+  end
+  
+  def request
+    cluster_project.request
+  end
+  
+  def cluster_project
+    task.resource
+  end
+end
+
 class UserProcedure < Procedure
   KEY_PATH='/home/serg/Work/Octoshell/octoshell-extend'
 
@@ -19,7 +47,7 @@ class UserProcedure < Procedure
   end
 
   def project_login
-    project.username
+    cluster_project.username
   end
 
   def additional_attributes
@@ -29,19 +57,23 @@ class UserProcedure < Procedure
 private
 
   def cluster
-    cluster_user.cluster
+    cluster_project.cluster
   end
   
   def project
-    cluster_user.project
+    cluster_project.project
   end
   
   def cluster_user
     task.resource
   end
   
+  def cluster_project
+    cluster_user.cluster_project
+  end
+  
   def request
-    cluster_user.request
+    cluster_project.request
   end
 end
 
@@ -53,11 +85,11 @@ class KeyProcedure < Procedure
   end
   
   def project_login
-    project.username
+    cluster_project.username
   end
   
   def user_login
-    account.username
+    cluster_user.username
   end
   
   def public_key
@@ -71,11 +103,11 @@ class KeyProcedure < Procedure
 private
   
   def cluster
-    cluster_user.cluster
+    cluster_project.cluster
   end
   
   def request
-    cluster_user.request
+    cluster_project.request
   end
   
   def project
@@ -84,6 +116,10 @@ private
   
   def user
     credential.user
+  end
+  
+  def cluster_project
+    cluster_user.cluster_project
   end
   
   def cluster_user
@@ -99,6 +135,6 @@ private
   end
   
   def credential
-    task.resource.credential
+    access.credential
   end
 end
