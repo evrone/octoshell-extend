@@ -1,2 +1,2 @@
-class UnblockUser < Procedure
+class UnblockUser < UserProcedure
 end

@@ -1,55 +1,14 @@
-class AddOpenkey < Procedure
-  def host
-    cluster.host
-  end
-  
-  def project_login
-    project.username
-  end
-  
-  def user_login
-    account.username
-  end
-  
-  def public_key
-    credential.public_key
-  end
-  
-  def additional_attributes
-    Hash[request.request_properties.map { |p| [p.name.to_sym, p.value] }]
-  end
-  
-private
-  
-  def cluster
-    cluster_user.cluster
-  end
-  
-  def request
-    cluster_user.request
-  end
-  
-  def project
-    request.project
-  end
-  
-  def user
-    credential.user
-  end
-  
-  def cluster_user
-    access.cluster_user
-  end
-  
-  def access
-    task.resource
-  end
-  
-  def account
-    Account.where(state: 'active', project_id: project.id, user_id: user.id).first
-  end
-  
-  def credential
-    task.resource.credential
+require 'shellwords'
+
+class AddOpenkey < KeyProcedure
+
+  def perform
+    @comment="Add key: #{project_login} on #{host} with #{public_key}.\n"
+
+    key=public_key.shellescape
+
+    @comment += `ssh -i #{KEY_PATH}/key octo@localhost sudo /usr/octo/add_openkey '#{project_login}' '#{key}'`
+
+    $?.exitstatus == 0
   end
 end
