@@ -1,2 +1,0 @@
-class BlockUser < UserProcedure
-end

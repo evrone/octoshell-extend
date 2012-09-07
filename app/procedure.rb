@@ -45,6 +45,10 @@ class UserProcedure < Procedure
   def host
     cluster.host
   end
+  
+  def user_login
+    cluster_user.username
+  end
 
   def project_login
     cluster_project.username

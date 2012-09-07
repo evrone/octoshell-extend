@@ -1,2 +1,0 @@
-class UnblockUser < UserProcedure
-end
