@@ -8,7 +8,7 @@ class BlockProject < ProjectProcedure
 
     ret=true
     cluster_user_logins.each do |login|
-      @comment += `ssh -i #{KEY_PATH}/key octo@localhost sudo /usr/octo/block_user #{login}`
+      @comment += `ssh -i #{KEY_PATH}/key octo@#{host}  sudo /usr/octo/block_user #{login}`
 
       ret &= $?.exitstatus
     end

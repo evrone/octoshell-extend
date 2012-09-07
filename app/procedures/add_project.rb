@@ -10,7 +10,7 @@ class AddProject < ProjectProcedure
 
 #    @comment += `ssh -i #{KEY_PATH}/key octo@#{host} ./octo_add_user #{project_login}`
 #    puts "ssh -i #{KEY_PATH}/key octo@localhost sudo /usr/octo/add_group #{project_login}"
-    @comment += `ssh -i #{KEY_PATH}/key octo@localhost sudo /usr/octo/add_group #{project_login}`
+    @comment += `ssh -i #{KEY_PATH}/key octo@#{host} sudo /usr/octo/add_group #{project_login}`
 
 #    warn @comment
     $?.exitstatus == 0

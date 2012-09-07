@@ -7,7 +7,7 @@ class AddOpenkey < KeyProcedure
 
     key=public_key.shellescape
 
-    @comment += `ssh -i #{KEY_PATH}/key octo@localhost sudo /usr/octo/add_openkey '#{user_login}' '#{key}'`
+    @comment += `ssh -i #{KEY_PATH}/key octo@#{host} sudo /usr/octo/add_openkey '#{user_login}' '#{key}'`
 
     $?.exitstatus == 0
   end
