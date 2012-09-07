@@ -6,6 +6,7 @@ describe DelProject do
     proc.stub(:host) { 'hostname' }
     proc.stub(:project_login) { 'project_1' }
     proc.stub(:additional_attributes) { { attribute: 'value' } }
+    proc.stub(:cluster_user_logins) { ['user_1'] }
     proc
   end
   

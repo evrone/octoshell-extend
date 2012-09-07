@@ -1,4 +1,6 @@
 class Procedure
+  KEY_PATH='/home/serg/Work/Octoshell/octoshell-extend/'
+
   attr_reader :task, :comment
   
   def initialize(task)

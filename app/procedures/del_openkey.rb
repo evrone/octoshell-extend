@@ -9,6 +9,5 @@ class DelOpenkey < KeyProcedure
     @comment += `ssh -i #{KEY_PATH}/key octo@localhost sudo /usr/octo/del_openkey #{project_login} '#{escaped_key}'`
 
     $?.exitstatus == 0
-    false
   end
 end
