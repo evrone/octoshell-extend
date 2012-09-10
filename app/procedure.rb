@@ -1,6 +1,4 @@
 class Procedure
-  KEY_PATH='/home/serg/Work/Octoshell/octoshell-extend/'
-
   attr_reader :task, :comment
   
   def initialize(task)
@@ -42,8 +40,6 @@ private
 end
 
 class UserProcedure < Procedure
-  KEY_PATH='/home/serg/Work/Octoshell/octoshell-extend'
-
   def host
     cluster.host
   end
@@ -84,8 +80,6 @@ private
 end
 
 class KeyProcedure < Procedure
-  KEY_PATH='/home/serg/Work/Octoshell/octoshell-extend'
-
   def host
     cluster.host
   end

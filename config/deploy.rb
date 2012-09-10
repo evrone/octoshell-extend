@@ -45,6 +45,7 @@ namespace :deploy do
     # Ставим симлинк на конфиги и загрузки
     run "rm -f #{latest_release}/config/database.yml"
     run "ln -s #{deploy_to}/shared/configs/database.yml #{latest_release}/config/database.yml"
+    run "ln -s #{deploy_to}/shared/keys/private #{latest_release}/config/keys/private"
   end
 end
 
