@@ -4,10 +4,14 @@ class Task < ActiveRecord::Base
   has_many :tasks
   
   def perform
-    procedure = self.procedure.camelize.constantize.new(self)
-    self.state = procedure.perform ? 'successed' : 'failed'
-    self.comment = procedure.comment
-    save!
+    if ENV['OCTOSHELL_EXTEND_TEST']
+      update_attribute(:state, 'successed')
+    else
+      procedure = self.procedure.camelize.constantize.new(self)
+      self.state = procedure.perform ? 'successed' : 'failed'
+      self.comment = procedure.comment
+      save!
+    end
     Resque.enqueue(TasksCallbacksWorker, id)
   rescue => e
     self.state = 'failed'

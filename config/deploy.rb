@@ -32,7 +32,6 @@ before "deploy:migrations", "deploy:add_ssh_key"
 require 'capistrano-unicorn'
 
 after "deploy:restart", "resque:restart"
-after "deploy:restart", "resque:restart"
 
 namespace :deploy do
   task :add_ssh_key do
