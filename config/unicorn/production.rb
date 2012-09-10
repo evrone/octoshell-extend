@@ -54,7 +54,7 @@ end
 after_fork do |server, worker|
 #   # the following is *required* for Rails + "preload_app true",
   if defined?(ActiveRecord::Base)
-    ActiveRecord::Base.establish_connection(YAML.load_file(File.expand_path("database.yml")['readonly']))
+    ActiveRecord::Base.establish_connection(YAML.load_file(File.expand_path("../database.yml")['readonly']))
   end
 # 
 #   # if preload_app is true, then you may also want to check and
