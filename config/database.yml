@@ -1,5 +1,6 @@
 readonly:
-  adapter: postgresql
-  database: octoshell_developement
-  username: octoshell
+  database: msu
+  username: evrone
+  host: v1.parallel.ru
+  password: superpassw0rd
   pool: 5
