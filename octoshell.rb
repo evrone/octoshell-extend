@@ -11,8 +11,13 @@ class Octoshell < Sinatra::Base
   end
   
   get '/run/:name' do |name|
-    @script = name.camelize.constantize.new
-    @script.run
-    slim name.to_sym
+    user = User.find_by_id(session[:user_id])
+    if user && user.admin
+      @script = name.camelize.constantize.new
+      @script.run
+      slim name.to_sym
+    else
+      slim "h1 Not Authorized", status: 401
+    end
   end
 end
