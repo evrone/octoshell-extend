@@ -13,8 +13,6 @@ set :use_sudo, false
 set :deploy_to, "/var/www/#{application}"
 set :keep_releases, 3
 set :scm, :git
-set :unicorn_remote_config, '/var/www/octoshell-extend/current/config/unicorn.rb'
-set :unicorn_bin, 'bundle exec unicorn'
 set :rack_env, 'production'
 set :ssh_options, { forward_agent: true }
 
