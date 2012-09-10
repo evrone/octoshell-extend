@@ -12,7 +12,7 @@ class Task < ActiveRecord::Base
       self.comment = procedure.comment
       save!
     end
-    Resque.enqueue(TasksCallbacksWorker, id)
+    Resque.enqueue(TasksCallbacksWorker, id) if state == 'successed'
   rescue => e
     self.state = 'failed'
     error = ""
