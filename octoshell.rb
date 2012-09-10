@@ -17,7 +17,8 @@ class Octoshell < Sinatra::Base
       @script.run
       slim name.to_sym
     else
-      slim "h1 Not Authorized", status: 401
+      status 401
+      slim "h1 Not Authorized"
     end
   end
 end
