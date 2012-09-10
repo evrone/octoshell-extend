@@ -1,5 +1,6 @@
 # Set environment to development unless something else is specified
 env = ENV["RACK_ENV"] || "production"
+app_path = '/var/www/octoshell-extend/current'
 rails_env = env
 # See http://unicorn.bogomips.org/Unicorn/Configurator.html for complete
 # documentation.
