@@ -15,6 +15,7 @@ set :keep_releases, 3
 set :scm, :git
 set :rack_env, 'production'
 set :ssh_options, { forward_agent: true }
+set :workers, { "task_requests" => 1 }
 
 role :app, domain
 role :web, domain
