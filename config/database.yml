@@ -1,4 +1,5 @@
 readonly:
+  adapter: postgresql
   database: msu
   username: evrone
   host: v1.parallel.ru
