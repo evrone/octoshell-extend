@@ -6,7 +6,7 @@ class DelOpenkey < KeyProcedure
 
     escaped_key=public_key.shellescape
 
-    @comment += `ssh -i #{KEY_PATH}/key octo@#{host} sudo /usr/octo/del_openkey #{project_login} '#{escaped_key}'`
+    @comment += `ssh -i #{SSH_KEY_PATH} octo@#{host} sudo /usr/octo/del_openkey #{project_login} '#{escaped_key}'`
 
     $?.exitstatus == 0
   end

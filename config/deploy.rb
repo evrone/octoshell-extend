@@ -13,10 +13,9 @@ set :use_sudo, false
 set :deploy_to, "/var/www/#{application}"
 set :keep_releases, 3
 set :scm, :git
-set :unicorn_remote_config, '/var/www/octoshell-extend/current/config/unicorn.rb'
-set :unicorn_bin, 'bundle exec unicorn'
 set :rack_env, 'production'
 set :ssh_options, { forward_agent: true }
+set :workers, { "task_requests" => 1 }
 
 role :app, domain
 role :web, domain
@@ -32,7 +31,6 @@ before "deploy:migrations", "deploy:add_ssh_key"
 require 'capistrano-unicorn'
 
 after "deploy:restart", "resque:restart"
-after "deploy:restart", "resque:restart"
 
 namespace :deploy do
   task :add_ssh_key do
@@ -47,6 +45,7 @@ namespace :deploy do
     # Ставим симлинк на конфиги и загрузки
     run "rm -f #{latest_release}/config/database.yml"
     run "ln -s #{deploy_to}/shared/configs/database.yml #{latest_release}/config/database.yml"
+    run "ln -s #{deploy_to}/shared/keys/private #{latest_release}/config/keys/private"
   end
 end
 

@@ -1,5 +1,6 @@
 # Set environment to development unless something else is specified
 env = ENV["RACK_ENV"] || "production"
+app_path = '/var/www/octoshell-extend/current'
 rails_env = env
 # See http://unicorn.bogomips.org/Unicorn/Configurator.html for complete
 # documentation.
@@ -15,7 +16,7 @@ preload_app true
 # nuke workers after 30 seconds instead of 60 seconds (the default)
 timeout 30
 
-pid "/tmp/unicorn.octoshell-extend.pid"
+pid "#{app_path}/tmp/pids/unicorn.pid"
 
 # Production specific settings
 #if env == "production"
@@ -40,7 +41,7 @@ before_fork do |server, worker|
 
   # Before forking, kill the master process that belongs to the .oldbin PID.
   # This enables 0 downtime deploys.
-  old_pid = "/tmp/unicorn.octoshell-extend.pid.oldbin"
+  old_pid = "#{app_path}/tmp/pids/unicorn.pid.oldbin"
   if File.exists?(old_pid) && server.pid != old_pid
     begin
       Process.kill("QUIT", File.read(old_pid).to_i)
@@ -50,15 +51,15 @@ before_fork do |server, worker|
   end
 end
 # 
-# after_fork do |server, worker|
+after_fork do |server, worker|
 #   # the following is *required* for Rails + "preload_app true",
-#   if defined?(ActiveRecord::Base)
-#     ActiveRecord::Base.establish_connection(YAML.load_file(File.expand_path("database.yml")['readonly']))
-#   end
+  if defined?(ActiveRecord::Base)
+    ActiveRecord::Base.establish_connection(YAML.load_file("#{app_path}/config/database.yml")['readonly'])
+  end
 # 
 #   # if preload_app is true, then you may also want to check and
 #   # restart any other shared sockets/descriptors such as Memcached,
 #   # and Redis.  TokyoCabinet file handles are safe to reuse
 #   # between any number of forked children (assuming your kernel
 #   # correctly implements pread()/pwrite() system calls)
-# end
+end
