@@ -8,8 +8,7 @@ class AddOpenkey < KeyProcedure
     key=public_key.shellescape
 
 #    @comment += `ssh -i #{SSH_KEY_PATH}/key octo@#{host} sudo /usr/octo/add_openkey '#{user_login}' '#{key}'`
-    line=Cocaine::CommandLine.new('ssh', '-i', "#{SSH_KEY_PATH}/key", "octo@#{host}",
-                                  'sudo', '/usr/octo/add_openkey', user_login, key)
+    line=Cocaine::CommandLine.new('ssh', "-i #{SSH_KEY_PATH}/key octo@#{host} sudo /usr/octo/add_openkey  #{user_login} #{key}")
     begin
       @comment << line.run
     rescue Cocaine::ExitStatusError => e
