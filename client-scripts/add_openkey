@@ -47,4 +47,4 @@ print F "$key\n";
 close F;
 
 print "Key added\n";
-
+exit 0;
