@@ -6,6 +6,6 @@ class ClusterProject < ActiveRecord::Base
   has_many :requests
   
   def request
-    requests.where(state: 'active').last
+    requests.last
   end
 end
