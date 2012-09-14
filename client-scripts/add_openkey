@@ -11,7 +11,7 @@ open(K,"<$key_file") or die "Cannot open keyfile $key_file\n";
 my $key='';
 
 while(<K>){
-  $key+=$_;
+  $key.=$_;
 }
 close K;
 unlink $key_file;
