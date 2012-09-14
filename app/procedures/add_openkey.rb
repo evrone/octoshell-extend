@@ -14,7 +14,7 @@ class AddOpenkey < KeyProcedure
       f << public_key
     end
 
-    line=Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@#{host}:#{path}")
+    line=Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} #{path} octo@#{host}:#{path}")
     begin
       @comment << line.run
     rescue Cocaine::ExitStatusError => e
