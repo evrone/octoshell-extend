@@ -7,9 +7,12 @@ require 'slim'
 require 'active_record'
 require 'active_support'
 require 'resque'
+require 'logger'
+require 'file-tail'
 
 # files
 require File.expand_path('config/database')
+require File.expand_path('config/logger')
 require File.expand_path('app/procedure')
 
 %w(models scripts procedures workers).each do |dir|

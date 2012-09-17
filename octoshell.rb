@@ -10,6 +10,20 @@ class Octoshell < Sinatra::Base
     redirect '/run/example'
   end
   
+  get '/run/log' do
+    @logstack = []
+    begin
+      File::Tail::Logfile.open("log/application.log", break_if_eof: true) do |log|
+        log.interval = 1000
+        log.backward(1000).tail do |log|
+          @logstack << log
+        end
+      end
+    rescue File::Tail::BreakException
+    end
+    slim :log
+  end
+  
   get '/run/:name' do |name|
     user = User.find_by_id(session[:user_id])
     if user && user.admin

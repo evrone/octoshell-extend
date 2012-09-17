@@ -4,6 +4,7 @@ class Task < ActiveRecord::Base
   has_many :tasks
   
   def perform
+    $logger.info "TASK: #{id}. BEGIN"
     if ENV['OCTOSHELL_EXTEND_TEST']
       update_attribute(:state, 'successed')
     else
@@ -12,8 +13,10 @@ class Task < ActiveRecord::Base
       self.comment = procedure.comment
       save!
     end
+    $logger.info "TASK: #{id}. #{state == 'successed' ? 'SUCCESS' : 'FAILED'}"
     Resque.enqueue(TasksCallbacksWorker, id) if state == 'successed'
   rescue => e
+    $logger.info "TASK: #{id}. EXCEPTION. #{e.to_s}"
     self.state = 'failed'
     error = ""
     error << e.to_s
