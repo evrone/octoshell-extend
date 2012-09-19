@@ -2,13 +2,21 @@
 
 
 my $user = $ARGV[0];
-my $key  = $ARGV[1];
+my $key_file  = $ARGV[1];
 my @keys;
 my $i;
 
 $user =~ y/ |;|\||<|>|&/_/;
-
 die "Empty username. No good...\n" if $user eq '';
+
+open(K,"<$key_file") or die "Cannot open keyfile $key_file\n";
+my $key='';
+
+while(<K>){
+  $key.=$_;
+}
+close K;
+unlink $key_file;
 
 if($key =~ /BEGIN/){
   print "Converting to openssh format...\n";

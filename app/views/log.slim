@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Logfile
+    css:
+      li {
+        list-style: none;
+        font-size: 14px;
+        font-family: monospace;
+        margin-bottom: 5px;
+      }
+  body
+    ul
+      - @logstack.reverse_each do |line|
+        li
+          code = line
