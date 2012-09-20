@@ -85,9 +85,9 @@ $("#extend").html("Free space: <%= @script.result %>");
 
 You can also user partials:
 
-First you should add a new partial to `app/views/partials/your_partial.erb`. [About slim-lang] (http://slim-lang.com)
+First you should add a new partial to `app/views/partials/your_partial.erb`. [About erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
 
-ERB template will returns **underscore template** that will be used in your ~~~new_script.erb~~~. [About underscore.js](http://underscorejs.org/#template)
+ERB template will returns **underscore template** that will be used in your `new_script.erb`. [About underscore.js](http://underscorejs.org/#template)
 
 ~~~erb
 <table>
@@ -104,7 +104,7 @@ ERB template will returns **underscore template** that will be used in your ~~~n
 </table>
 ~~~
 
-In your ~~~new_script.erb~~~ will render created template and use it.
+In your `new_script.erb` will render created template and use it.
 
 ~~~erb
 var partial = _.template('<%= erb :'partials/your_partial' %>');
