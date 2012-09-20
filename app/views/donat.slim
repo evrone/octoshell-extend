@@ -1,5 +1,6 @@
-| $("#extend").css({width: 140, height: 140});
+- template = escape_javascript(slim :'partials/free_space', locals: { result: @script.result })
+| $("#extend").html('#{{template}}');
 | Morris.Donut({
-|   element: 'extend',
+|   element: 'extend-donat',
 |   data: #{{@script.result.to_json}}
 | });

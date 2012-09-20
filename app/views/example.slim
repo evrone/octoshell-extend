@@ -1,2 +1,2 @@
-- template = slim(:'partials/example', locals: { items: %w(o c t o s h e l l), hello: @script.result })
+- template = escape_javascript(slim :'partials/example', locals: { items: %w(o c t o s h e l l), hello: @script.result })
 | $("#extend").html('#{{template}}');

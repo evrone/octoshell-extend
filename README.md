@@ -108,16 +108,11 @@ table class="table table-bordered"
 h4 Template:
 
 ~~~slim
-- template = slim(:'partials/example', locals: { items: [1,2,3], hello: @script.result })
+- template = escape_javascript(slim :'partials/example', locals: { items: [1,2,3], hello: @script.result })
 | $("#extend").html('#{{template}}');
 ~~~
 
-In your `new_script.erb` will render created template and use it.
-
-~~~erb
-var partial = _.template('<%= erb :'partials/your_partial' %>');
-$("#extend").html(partial({ hello: '<%= @script.result %>' }));
-~~~
+That's it!
 
 ### Deploy
 
