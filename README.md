@@ -32,7 +32,7 @@ bundle
 
 ### Testing procedures
 
-~~~
+~~~bash
 irb -I.
 require 'init'
 procedure = AddUser.new(task)
@@ -53,7 +53,7 @@ end
 
 ### Testing helper scripts
 
-~~~
+~~~bash
 unicorn
 open http://0.0.0.0:8080
 ~~~
@@ -73,16 +73,24 @@ end
 
 Class should respond to `run` method.
 
-Then add a view file to `app/views/new_script.slim`. [About slim-lang](http://slim-lang.com)
+Then add a view file to `app/views/new_script.erb`. [About erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
 
-In `new_script.slim` you will have a `@script` variable.
+In `new_script.erb` you will have a `@script` variable.
 
-~~~slim
-p Free space: #{@script.result}
+~~~erb
+$("#extend").html("Free space: <%= @script.result %>");
 ~~~
+
+**Output file will be javascript.**
+
+You can also user partials:
+
+First you should add a new partial to `app/views/partials/your_partial.slim`. [About slim-lang] (http://slim-lang.com)
+
+Slim template will returns underscore template **html** that will be used as **underscore template**. [About underscore.js](http://underscorejs.org/#template)
 
 ### Deploy
 
-~~~
+~~~bash
 cap deploy
 ~~~
