@@ -29,7 +29,7 @@ class Octoshell < Sinatra::Base
     if user && user.admin
       @script = name.camelize.constantize.new
       @script.run
-      # content_type 'text/plain'
+      content_type 'text/plain'
       erb name.to_sym
     else
       status 401

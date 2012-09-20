@@ -1,2 +1,2 @@
 var partial = _.template('<%= slim :'partials/example' %>');
-$("#extend").html(template(hello: '<%= @script.result %>'));
+$("#extend").html(partial(hello: '<%= @script.result %>'));
