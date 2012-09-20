@@ -29,7 +29,8 @@ class Octoshell < Sinatra::Base
     if user && user.admin
       @script = name.camelize.constantize.new
       @script.run
-      slim name.to_sym
+      content_type 'text/plain'
+      erb name.to_sym
     else
       status 401
       slim "h1 Not Authorized"
