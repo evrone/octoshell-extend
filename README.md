@@ -81,13 +81,35 @@ In `new_script.erb` you will have a `@script` variable.
 $("#extend").html("Free space: <%= @script.result %>");
 ~~~
 
-**Output file will be javascript.**
+**Output file will be a javascript.**
 
 You can also user partials:
 
-First you should add a new partial to `app/views/partials/your_partial.slim`. [About slim-lang] (http://slim-lang.com)
+First you should add a new partial to `app/views/partials/your_partial.erb`. [About slim-lang] (http://slim-lang.com)
 
-Slim template will returns underscore template **html** that will be used as **underscore template**. [About underscore.js](http://underscorejs.org/#template)
+ERB template will returns **underscore template** that will be used in your ~~~new_script.erb~~~. [About underscore.js](http://underscorejs.org/#template)
+
+~~~erb
+<table>
+  <tr>
+    <th>One</th>
+    <th>Two</th>
+  </tr>
+  <% _(items).each(function(item){ %>
+    <tr>
+      <td><%= item.name %></td>
+      <td><%= item.value %></td>
+    </tr>
+  <% }); %>
+</table>
+~~~
+
+In your ~~~new_script.erb~~~ will render created template and use it.
+
+~~~erb
+var partial = _.template('<%= erb :'partials/your_partial' %>');
+$("#extend").html(partial({ hello: '<%= @script.result %>' }));
+~~~
 
 ### Deploy
 
