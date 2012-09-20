@@ -25,15 +25,27 @@ class Octoshell < Sinatra::Base
   end
   
   get '/run/:name' do |name|
-    user = User.find_by_id(session[:user_id])
-    if user && user.admin
+    render = proc do
       @script = name.camelize.constantize.new
       @script.run
       content_type 'text/plain'
-      erb name.to_sym
-    else
-      status 401
-      slim "h1 Not Authorized"
+      slim name.to_sym
     end
+    
+    if production?
+      user = User.find_by_id(session[:user_id])
+      if user && user.admin
+        render.call
+      else
+        status 401
+        slim "h1 Not Authorized"
+      end
+    else
+      render.call
+    end
+  end
+  
+  def production?
+    ENV['OCTOSHELL_ENV'] != 'development'
   end
 end

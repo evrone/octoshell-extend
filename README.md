@@ -73,9 +73,11 @@ end
 
 Class should respond to `run` method.
 
-Then add a view file to `app/views/new_script.erb`. [About erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
+Slim users for create js and html. [About slim](http://slim-lang.com)
 
-In `new_script.erb` you will have a `@script` variable.
+Then add a view file to `app/views/new_script.slim`.
+
+In `new_script.slim` you will have a `@script` variable.
 
 ~~~erb
 $("#extend").html("Free space: <%= @script.result %>");
@@ -83,25 +85,31 @@ $("#extend").html("Free space: <%= @script.result %>");
 
 **Output file will be a javascript.**
 
-You can also user partials:
+You can also use partials:
 
-First you should add a new partial to `app/views/partials/your_partial.erb`. [About erb](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
+First you should add a new partial to `app/views/partials/your_partial.slim` and render it in `new_script.slim`.
 
-ERB template will returns **underscore template** that will be used in your `new_script.erb`. [About underscore.js](http://underscorejs.org/#template)
+h4 Partial:
 
-~~~erb
-<table>
-  <tr>
-    <th>One</th>
-    <th>Two</th>
-  </tr>
-  <% _(items).each(function(item){ %>
-    <tr>
-      <td><%= item.name %></td>
-      <td><%= item.value %></td>
-    </tr>
-  <% }); %>
-</table>
+~~~slim
+div class="extend"
+  = hello
+
+table class="table table-bordered"
+  tr
+    th Foo
+    th Bar
+  - items.each do |item|
+    tr
+      td = item
+      td = item
+~~~
+
+h4 Template:
+
+~~~slim
+- template = slim(:'partials/example', locals: { items: [1,2,3], hello: @script.result })
+| $("#extend").html('#{{template}}');
 ~~~
 
 In your `new_script.erb` will render created template and use it.
