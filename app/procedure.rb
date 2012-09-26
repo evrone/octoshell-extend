@@ -1,11 +1,13 @@
 class Procedure
   attr_reader :task, :comment
-  
+
+  MAX_RAND=1000000000
+
   def initialize(task)
     @task = task
     @comment = ""
   end
-  
+
   def perform
     raise "Implement Me!"
   end
@@ -15,25 +17,25 @@ class ProjectProcedure < Procedure
   def host
     cluster.host
   end
-  
+
   def project_login
     cluster_project.username
   end
-  
+
   def additional_attributes
     Hash[request.request_properties.map { |p| [p.name.to_sym, p.value] }]
   end
-  
+
 private
-  
+
   def cluster
     cluster_project.cluster
   end
-  
+
   def request
     cluster_project.request
   end
-  
+
   def cluster_project
     task.resource
   end
@@ -43,7 +45,7 @@ class UserProcedure < Procedure
   def host
     cluster.host
   end
-  
+
   def user_login
     cluster_user.username
   end
@@ -61,19 +63,19 @@ private
   def cluster
     cluster_project.cluster
   end
-  
+
   def project
     cluster_project.project
   end
-  
+
   def cluster_user
     task.resource
   end
-  
+
   def cluster_project
     cluster_user.cluster_project
   end
-  
+
   def request
     cluster_project.request
   end
@@ -83,11 +85,11 @@ class KeyProcedure < Procedure
   def host
     cluster.host
   end
-  
+
   def project_login
     cluster_project.username
   end
-  
+
   def user_login
     cluster_user.username
   end
