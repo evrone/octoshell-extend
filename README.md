@@ -32,7 +32,7 @@ bundle
 
 ### Testing procedures
 
-~~~
+~~~bash
 irb -I.
 require 'init'
 procedure = AddUser.new(task)
@@ -53,7 +53,7 @@ end
 
 ### Testing helper scripts
 
-~~~
+~~~bash
 unicorn
 open http://0.0.0.0:8080
 ~~~
@@ -73,16 +73,49 @@ end
 
 Class should respond to `run` method.
 
-Then add a view file to `app/views/new_script.slim`. [About slim-lang](http://slim-lang.com)
+Slim users for create js and html. [About slim](http://slim-lang.com)
+
+Then add a view file to `app/views/new_script.slim`.
 
 In `new_script.slim` you will have a `@script` variable.
 
-~~~slim
-p Free space: #{@script.result}
+~~~erb
+$("#extend").html("Free space: <%= @script.result %>");
 ~~~
+
+**Output file will be a javascript.**
+
+You can also use partials:
+
+First you should add a new partial to `app/views/partials/your_partial.slim` and render it in `new_script.slim`.
+
+h4 Partial:
+
+~~~slim
+div class="extend"
+  = hello
+
+table class="table table-bordered"
+  tr
+    th Foo
+    th Bar
+  - items.each do |item|
+    tr
+      td = item
+      td = item
+~~~
+
+h4 Template:
+
+~~~slim
+- template = escape_javascript(slim :'partials/example', locals: { items: [1,2,3], hello: @script.result })
+| $("#extend").html('#{{template}}');
+~~~
+
+That's it!
 
 ### Deploy
 
-~~~
+~~~bash
 cap deploy
 ~~~

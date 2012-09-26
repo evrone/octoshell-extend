@@ -3,6 +3,6 @@ class Example
   
   def run
     # get result
-    @result = "255 Tb"
+    @result = "Hello from octoshell-extend"
   end
 end

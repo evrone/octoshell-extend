@@ -1,0 +1,18 @@
+css:
+  #extend-donat {
+    height: 120px;
+  }
+
+div class="group"
+  h2 Свободное место на кластерах
+  div class="row"
+    div class="span8"
+      table class="table table-bordered"
+        - result.each do |hash|
+          tr
+            th = hash[:label]
+            td = hash[:value]
+    div class="span4"
+      div id="extend-donat"
+  
+  
