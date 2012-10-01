@@ -20,3 +20,5 @@ require File.expand_path('app/procedure')
 end
 
 SSH_KEY_PATH = File.expand_path('config/keys/private')
+
+Time.zone = 'Moscow'
