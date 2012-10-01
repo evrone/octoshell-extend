@@ -5,7 +5,7 @@ class Task < ActiveRecord::Base
   
   def perform
     $logger.info "TASK: #{id}. BEGIN"
-    touch :runned_at
+    update_attribute :runned_at, Time.now.utc
     if ENV['OCTOSHELL_EXTEND_TEST']
       update_attribute(:state, 'successed')
     else
