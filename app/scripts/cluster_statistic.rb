@@ -12,10 +12,11 @@ private
   def get_stats
     dest_path = '/tmp/du_last'
     
-    cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
-    cmd.run
+    # cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
+    # cmd.run
+    # csv = CSV.read(dest_path, col_sep: ':')
+    # File.unlink(dest_path)
     csv = CSV.read(dest_path, col_sep: ':')
-    File.unlink(dest_path)
     csv
   end
   
