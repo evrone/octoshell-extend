@@ -10,13 +10,13 @@ class ClusterStatistic
   def top_by_size
     @csv.sort_by do |row|
       row[:size]
-    end.last(10)
+    end.last(10).reverse
   end
   
   def top_by_files
     @csv.sort_by do |row|
       row[:files]
-    end.last(10)
+    end.last(10).reverse
   end
   
 private

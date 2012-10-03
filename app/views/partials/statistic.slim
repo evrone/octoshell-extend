@@ -15,7 +15,3 @@ table class="table table-bordered"
             = stat[:username]
         td = stat[:files]
         td = number_to_human_size(stat[:size])
-    tr
-      td All:
-      td = stats.sum { |s| s[:files] }
-      td = number_to_human_size(stats.sum { |s| s[:size] })
