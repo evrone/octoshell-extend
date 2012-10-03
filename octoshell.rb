@@ -27,10 +27,10 @@ class Octoshell < Sinatra::Base
           [1024 ** 4, 'Gb']
         elsif size >= (1024 ** 3)
           [1024 ** 3, 'Mb']
-        elsif size >= 1024
-          [1024, 'Kb']
+        elsif size >= 1024 ** 2
+          [1024 ** 2, 'Kb']
         else
-          [1, 'B']
+          [1024, 'B']
         end
 
       "#{(size.to_f / divider).round(2)} #{unit}"
