@@ -8,8 +8,8 @@ table class="table table-bordered"
       th Size
   tbody
     - cluster_users = ClusterUser.where(cluster_project_id: ClusterProject.where(cluster_id: 4).pluck(:id)).to_a
-    - stats.each do |stat|
-      tr
+    - stats.each_with_index do |stat, i|
+      tr style="#{i < 10 ? "" : "display:none"}"
         td
           - if cu = cluster_users.find { |cu| cu.username == stat[:username] }
             a href="/cluster_users/#{cu.id}" #{cu.username}
@@ -17,3 +17,12 @@ table class="table table-bordered"
             = stat[:username]
         td = stat[:files]
         td = number_to_human_size(stat[:size])
+    tr
+      td colspan="3"
+        a href="#" class="expand-table" Show all
+
+javascript:
+  $('a.expand-table').click(function(){
+    $(this).parents('table:first').find('tr').show();
+    return false;
+  });
