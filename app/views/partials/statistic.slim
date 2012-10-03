@@ -1,31 +1,21 @@
-css:
-  .extend-container {
-    max-height: 300px;
-    overflow: scroll;
-  }
-
-div class="extend-container"
-  table class="table table-bordered"
-    thead
+table class="table table-bordered"
+  thead
+    tr
+      th Username
+      th Files
+      th Size
+  tbody
+    - cluster_users = ClusterUser.where(cluster_project_id: ClusterProject.where(cluster_id: 4).pluck(:id)).to_a
+    - stats.each do |stat|
       tr
-        th Username
-        th Files
-        th Size
-    tbody
-      - cluster_users = ClusterUser.where(cluster_project_id: ClusterProject.where(cluster_id: 4).pluck(:id)).to_a
-      - stats.each do |stat|
-        tr
-          td
-            - if cu = cluster_users.find { |cu| cu.username = stat[:username] }
-              a href="/cluster_users/#{cu.id}" cu.username
-            - else
-              = stat[:username]
-          td = stat[:files]
-          td = number_to_human_size(stat[:size])
-      tr
-        td All:
-        td = stats.sum { |s| s[:files] }
-        td = number_to_human_size(stats.sum { |s| s[:size] })
-
-javascript:
-  $('div.extend-container table').tablesorter();
+        td
+          - if cu = cluster_users.find { |cu| cu.username == stat[:username] }
+            a href="/cluster_users/#{cu.id}" #{cu.username}
+          - else
+            = stat[:username]
+        td = stat[:files]
+        td = number_to_human_size(stat[:size])
+    tr
+      td All:
+      td = stats.sum { |s| s[:files] }
+      td = number_to_human_size(stats.sum { |s| s[:size] })

@@ -2,9 +2,21 @@ class ClusterStatistic
   attr_reader :result, :error
   
   def run
-    @result = format_stats(get_stats)
+    @csv = format_stats(get_stats)
   rescue Cocaine::ExitStatusError => e
     @error = e.message
+  end
+  
+  def top_by_size
+    @csv.sort_by do |row|
+      row[:size]
+    end.last(10)
+  end
+  
+  def top_by_files
+    @csv.sort_by do |row|
+      row[:files]
+    end.last(10)
   end
   
 private

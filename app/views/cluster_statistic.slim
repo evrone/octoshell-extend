@@ -1,2 +1,3 @@
-- template = escape_javascript(slim :'partials/statistic', locals: { stats: @script.result })
-| $("#extend").html('#{{template}}');
+- top_by_size = escape_javascript(slim :'partials/statistic', locals: { stats: @script.top_by_size })
+- top_by_files = escape_javascript(slim :'partials/statistic', locals: { stats: @script.top_by_files })
+| $("#extend").append('#{{top_by_size}}').append('#{{top_by_files}}');
