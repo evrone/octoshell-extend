@@ -17,13 +17,22 @@ class Octoshell < Sinatra::Base
       end
     end
     
-    def number_to_human_size(size, unit)
-      divider = {
-        kb: 1024,
-        mb: 1024 * 2,
-        gb: 1024 * 3,
-        tb: 1024 * 4
-      }[unit]
+    def number_to_human_size(size)
+      divider, unit =
+        if size >= (1024 * 6)
+          [1024 * 5, :pb]
+        elsif size >= (1024 * 5)
+          [1024 * 4, :tb]
+        elsif size >= (1024 * 4)
+          [1024 * 3, :gb]
+        elsif size >= (1024 * 3)
+          [1024 * 2, :mb]
+        elsif size >= 1024
+          [1024, :kb]
+        else
+          [1, :b]
+        end
+
       "#{(size.to_f / divider).round} #{unit.upcase}"
     end
   end
