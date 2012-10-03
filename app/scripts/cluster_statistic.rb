@@ -10,13 +10,14 @@ class ClusterStatistic
 private
   
   def get_stats
-    dest_path = '/tmp/du_last'
-    
-    cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
-    cmd.run
-    csv = CSV.read(dest_path, col_sel: ':')
-    File.unlink(dest_path)
-    csv
+    # dest_path = '/tmp/du_last'
+    # 
+    # cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
+    # cmd.run
+    # csv = CSV.read(dest_path, col_sel: ':')
+    # File.unlink(dest_path)
+    # csv
+    [["D", "/home/00_arch", "files=14972", "kbytes=295253400"]]
   end
   
   def format_stats(csv)

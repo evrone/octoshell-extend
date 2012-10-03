@@ -3,8 +3,8 @@ table class="table table-bordered"
     tr
       td = stat[:username]
       td = stat[:files]
-      td = number_to_human_size(stat[:size])
+      td = number_to_human_size(stat[:size], :mb)
   tr
-    td Всего:
+    td All:
     td = stats.sum { |s| s[:files] }
-    td = number_to_human_size(stats.sum { |s| s[:size] })
+    td = number_to_human_size(stats.sum { |s| s[:size] }, :gb)
