@@ -14,7 +14,7 @@ private
     
     cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
     cmd.run
-    csv = CSV.read(dest_path, col_sel: ':')
+    csv = CSV.read(dest_path, col_sep: ':')
     File.unlink(dest_path)
     csv
   end
