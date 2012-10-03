@@ -24,5 +24,6 @@ table class="table table-bordered"
 javascript:
   $('a.expand-table').click(function(){
     $(this).parents('table:first').find('tr').show();
+    $(this).parents('tr:first').remove();
     return false;
   });
