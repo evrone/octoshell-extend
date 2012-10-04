@@ -1,0 +1,9 @@
+- top_by_size = escape_javascript(slim :'partials/statistic', locals: { stats: @script.top_by_size, title: 'Топ по размеру' })
+- top_by_files = escape_javascript(slim :'partials/statistic', locals: { stats: @script.top_by_files, title: 'Топ по количеству файлов' })
+| $("#extend").append('#{{top_by_size}}').append('#{{top_by_files}}');
+
+| $('a.expand-table').unbind('click').bind('click', function(){
+|   $(this).parents('table:first').find('tr').show();
+|   $(this).parents('tr:first').remove();
+|   return false;
+| });

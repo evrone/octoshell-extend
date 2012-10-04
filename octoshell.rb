@@ -16,6 +16,27 @@ class Octoshell < Sinatra::Base
         ''
       end
     end
+    
+    def number_to_human_size(size)
+      divider, unit =
+        if (1024 ** 6) <= size
+          [1024 ** 6, 'Eb']
+        elsif (1024 ** 5) <= size
+          [1024 ** 5, 'Pb']
+        elsif (1024 ** 4) <= size
+          [1024 ** 4, 'Tb']
+        elsif (1024 ** 3) <= size
+          [1024 ** 3, 'Gb']
+        elsif (1024 ** 2) <= size
+          [1024 ** 2, 'Mb']
+        elsif 1024 <= size
+          [1024, 'Kb']
+        else
+          [1, 'B']
+        end
+
+      "#{(size.to_f / divider).round(2)} #{unit}"
+    end
   end
   
   get '/run/' do
