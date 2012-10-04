@@ -22,13 +22,6 @@ div class="extend-container"
         td colspan="3"
           a href="#" class="expand-table" Показать все
 
-javascript:
-  $('a.expand-table').unbind('click').bind('click', function(){
-    $(this).parents('table:first').find('tr').show();
-    $(this).parents('tr:first').remove();
-    return false;
-  });
-
 css:
   div.extend-container {
     max-height: 470px;
