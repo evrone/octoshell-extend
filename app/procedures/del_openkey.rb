@@ -1,6 +1,7 @@
 require 'shellwords'
 
 class DelOpenkey < KeyProcedure
+  
   def perform
     @comment="Del key: #{project_login} on #{host} with #{public_key}.\n"
 

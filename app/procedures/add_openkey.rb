@@ -2,7 +2,6 @@ require 'shellwords'
 require 'cocaine'
 
 class AddOpenkey < KeyProcedure
-  MAX_RAND=1000000000
 
   def perform
     @comment="Add key: #{user_login} / #{project_login} on #{host} with #{public_key}.\n"
