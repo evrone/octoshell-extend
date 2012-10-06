@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cleo-state last-update="1349436648" queue="test">
+  <cpus>
+    <cpu_statistics>
+      <total-free>80</total-free>
+      <shared-free>0</shared-free>
+      <shared-reserved>0</shared-reserved>
+      <total-number>80</total-number>
+      <total-own>80</total-own>
+      <total-shared>0</total-shared>
+      <own-free>80</own-free>
+      <blocked-count>0</blocked-count>
+      <own-blocked>0</own-blocked>
+      <shared-blocked>0</shared-blocked>
+      <total-busy>0</total-busy>
+      <own-busy>0</own-busy>
+      <shared-busy>0</shared-busy>
+    </cpu_statistics>
+    <node nodename="node-63-01">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-02">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-03">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-04">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-05">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-06">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-07">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-08">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-09">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-63-10">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+  </cpus>
+  <tasks>
+    <tasks_statistics>
+      <tasks-total>0</tasks-total>
+      <tasks-running>0</tasks-running>
+      <tasks-prerun>0</tasks-prerun>
+      <tasks-blocked>0</tasks-blocked>
+      <tasks-queued>0</tasks-queued>
+      <tasks-completition>0</tasks-completition>
+      <allautoblocks on="">
+        <autoblocks></autoblocks>
+        <nonautoblocks></nonautoblocks>
+      </allautoblocks>
+      <mode raw-value="9" run="1" queue="1" autorestart="0" />
+      <time-restrictions next="0"></time-restrictions>
+    </tasks_statistics>
+  </tasks>
+</cleo-state>

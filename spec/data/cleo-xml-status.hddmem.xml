@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cleo-state last-update="1349434087" queue="hddmem">
+  <cpus>
+    <cpu_statistics>
+      <total-free>8</total-free>
+      <shared-free>0</shared-free>
+      <shared-reserved>0</shared-reserved>
+      <total-number>256</total-number>
+      <total-own>256</total-own>
+      <total-shared>0</total-shared>
+      <own-free>8</own-free>
+      <blocked-count>32</blocked-count>
+      <own-blocked>32</own-blocked>
+      <shared-blocked>0</shared-blocked>
+      <total-busy>216</total-busy>
+      <own-busy>216</own-busy>
+      <shared-busy>0</shared-busy>
+    </cpu_statistics>
+    <node nodename="node-38-01">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-02">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-03">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-04">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-05">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-06">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-07">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-08">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-38-09">
+      <cpu id="1" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+    </node>
+    <node nodename="node-38-10">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-01">
+      <cpu id="1" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+    </node>
+    <node nodename="node-41-02">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-03">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-04">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-05">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-06">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-07">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-08">
+      <cpu id="1" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="1"><blocked>1<block_reason>Not connected yet</block_reason></blocked></cpu>
+    </node>
+    <node nodename="node-41-09">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-41-10">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-48-05">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-51-03">
+      <cpu id="1" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="1"><blocked>1<block_reason>CHECK_MEM</block_reason></blocked></cpu>
+    </node>
+    <node nodename="node-62-01">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-02">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-03">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-04">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-05">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-06">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-07">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-08">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-09">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+    <node nodename="node-62-10">
+      <cpu id="1" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="2" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="3" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="4" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="5" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="6" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="7" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+      <cpu id="8" type="own" own="1" blocked="0"><blocked>0</blocked></cpu>
+    </node>
+  </cpus>
+  <tasks>
+    <tasks_statistics>
+      <tasks-total>12</tasks-total>
+      <tasks-running>10</tasks-running>
+      <tasks-prerun>0</tasks-prerun>
+      <tasks-blocked>2</tasks-blocked>
+      <tasks-queued>2</tasks-queued>
+      <tasks-completition>0</tasks-completition>
+      <allautoblocks on="">
+        <autoblocks></autoblocks>
+        <nonautoblocks></nonautoblocks>
+      </allautoblocks>
+      <mode raw-value="9" run="1" queue="1" autorestart="0" />
+      <time-restrictions next="0"></time-restrictions>
+    </tasks_statistics>
+    <task id="11183" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-38-06" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-06" cpu_id="2" extra="1" type="own" />
+        <item node_name="node-38-06" cpu_id="3" extra="1" type="own" />
+        <item node_name="node-38-06" cpu_id="4" extra="1" type="own" />
+        <item node_name="node-38-06" cpu_id="5" extra="1" type="own" />
+        <item node_name="node-38-06" cpu_id="6" extra="1" type="own" />
+        <item node_name="node-38-06" cpu_id="7" extra="1" type="own" />
+        <item node_name="node-38-06" cpu_id="8" extra="1" type="own" />
+      </nodes>
+      <start day="3" month="10" of_week="3" hours="22" minutes="14" seconds="56" year="2012" unixtime="1349288096" />
+      <timelimit day="7" month="10" of_week="0" hours="1" minutes="14" seconds="56" year="2012" unixtime="1349288096" />
+      <added day="3" month="10" of_week="3" hours="22" minutes="14" seconds="55" year="2012" unixtime="1349288096" />
+      <task_code>'/home/smelovaem/smeagol.src.corrected/Src/smeagol'</task_code>
+      <use_file>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans/machinefile-11183</use_file>
+      <blocked>0</blocked>
+      <sexe>smeagol</sexe>
+      <stdout>out_03_10_12</stdout>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <force_host></force_host>
+      <pgrp>369</pgrp>
+      <queue>hddmem</queue>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>1</np>
+      <empty_input>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans/.cleo-11183-in</empty_input>
+      <node>node-38-06:1</node>
+      <dir>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/smelovaem/smeagol.src.corrected/Src/smeagol</command>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =217.10.38.72 26610 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =52</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =177</item>
+        <item>PWD =/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =smelovaem</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-intel-x86_64/bin:/home/smelovaem/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =217.10.38.72 26610 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-intel-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/smelovaem</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/smelovaem</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/smelovaem/.local/share</item>
+        <item>USER =smelovaem</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/smelovaem/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/360</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/smelovaem</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-intel-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/smelovaem/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/smelovaem/.bashrc</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>TMPDIR =/tmp/.private/smelovaem</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <attach_mask>.*</attach_mask>
+      <path>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans</path>
+      <signal>0</signal>
+      <lastowner>hddmem</lastowner>
+      <npextra>7</npextra>
+      <exe>/home/smelovaem/smeagol.src.corrected/Src/smeagol</exe>
+      <priority>10</priority>
+      <state>run</state>
+      <use_rsh_filter></use_rsh_filter>
+      <parent_mask></parent_mask>
+      <seen>0</seen>
+      <out>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans/smeagol.out-11183</out>
+      <pid>372</pid>
+      <pe_select>scheduler</pe_select>
+      <user>smelovaem</user>
+      <id>11183</id>
+      <estimated_run>1349308186</estimated_run>
+      <attrs>HASH(0x177fdea0)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <pidfile>/tmp/cleo-run-11183-64360</pidfile>
+      <file_mask></file_mask>
+      <nodes>node-38-06:1</nodes>
+      <reserved>0</reserved>
+      <orig_timelimit>270000</orig_timelimit>
+      <task_args>
+        <item>/home/smelovaem/smeagol.src.corrected/Src/smeagol</item>
+      </task_args>
+      <gummy>0</gummy>
+      <status>0</status>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <owner>hddmem</owner>
+      <wait_cond_type>a</wait_cond_type>
+      <rep>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8/trans/smeagol.rep-11183</rep>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <temp_dir>/tmp/cleo.hddmem.11183</temp_dir>
+      <uniqid>hddmem-1349288095-11183</uniqid>
+    </task>
+    <task id="11184" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-62-01" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-01" cpu_id="2" extra="1" type="own" />
+        <item node_name="node-62-01" cpu_id="3" extra="1" type="own" />
+        <item node_name="node-62-01" cpu_id="4" extra="1" type="own" />
+        <item node_name="node-62-01" cpu_id="5" extra="1" type="own" />
+        <item node_name="node-62-01" cpu_id="6" extra="1" type="own" />
+        <item node_name="node-62-01" cpu_id="7" extra="1" type="own" />
+        <item node_name="node-62-01" cpu_id="8" extra="1" type="own" />
+      </nodes>
+      <start day="3" month="10" of_week="3" hours="22" minutes="16" seconds="2" year="2012" unixtime="1349288162" />
+      <timelimit day="7" month="10" of_week="0" hours="1" minutes="16" seconds="2" year="2012" unixtime="1349288162" />
+      <added day="3" month="10" of_week="3" hours="22" minutes="16" seconds="1" year="2012" unixtime="1349288162" />
+      <task_code>'/home/smelovaem/smeagol.src.corrected/Src/smeagol'</task_code>
+      <use_file>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans/machinefile-11184</use_file>
+      <blocked>0</blocked>
+      <sexe>smeagol</sexe>
+      <stdout>out_03_10_12</stdout>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <force_host></force_host>
+      <pgrp>521</pgrp>
+      <queue>hddmem</queue>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>1</np>
+      <empty_input>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans/.cleo-11184-in</empty_input>
+      <node>node-62-01:1</node>
+      <dir>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/smelovaem/smeagol.src.corrected/Src/smeagol</command>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =217.10.38.72 26610 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =52</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =177</item>
+        <item>PWD =/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =smelovaem</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-intel-x86_64/bin:/home/smelovaem/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =217.10.38.72 26610 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-intel-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/smelovaem</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/smelovaem</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/smelovaem/.local/share</item>
+        <item>USER =smelovaem</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/smelovaem/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/360</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/smelovaem</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-intel-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/smelovaem/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/smelovaem/.bashrc</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>TMPDIR =/tmp/.private/smelovaem</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <attach_mask>.*</attach_mask>
+      <path>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans</path>
+      <signal>0</signal>
+      <lastowner>hddmem</lastowner>
+      <npextra>7</npextra>
+      <exe>/home/smelovaem/smeagol.src.corrected/Src/smeagol</exe>
+      <priority>10</priority>
+      <state>run</state>
+      <use_rsh_filter></use_rsh_filter>
+      <parent_mask></parent_mask>
+      <seen>0</seen>
+      <out>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans/smeagol.out-11184</out>
+      <pid>522</pid>
+      <pe_select>scheduler</pe_select>
+      <user>smelovaem</user>
+      <id>11184</id>
+      <estimated_run>1349308186</estimated_run>
+      <attrs>HASH(0x1732e3e0)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <pidfile>/tmp/cleo-run-11184-45598</pidfile>
+      <file_mask></file_mask>
+      <nodes>node-62-01:1</nodes>
+      <reserved>0</reserved>
+      <orig_timelimit>270000</orig_timelimit>
+      <task_args>
+        <item>/home/smelovaem/smeagol.src.corrected/Src/smeagol</item>
+      </task_args>
+      <gummy>0</gummy>
+      <status>0</status>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <owner>hddmem</owner>
+      <wait_cond_type>a</wait_cond_type>
+      <rep>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_3_4/trans/smeagol.rep-11184</rep>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <temp_dir>/tmp/cleo.hddmem.11184</temp_dir>
+      <uniqid>hddmem-1349288161-11184</uniqid>
+    </task>
+    <task id="11193" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-38-10" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-10" cpu_id="2" extra="1" type="own" />
+        <item node_name="node-38-10" cpu_id="3" extra="1" type="own" />
+        <item node_name="node-38-10" cpu_id="4" extra="1" type="own" />
+        <item node_name="node-38-10" cpu_id="5" extra="1" type="own" />
+        <item node_name="node-38-10" cpu_id="6" extra="1" type="own" />
+        <item node_name="node-38-10" cpu_id="7" extra="1" type="own" />
+        <item node_name="node-38-10" cpu_id="8" extra="1" type="own" />
+      </nodes>
+      <start day="4" month="10" of_week="4" hours="1" minutes="1" seconds="19" year="2012" unixtime="1349298079" />
+      <timelimit day="7" month="10" of_week="0" hours="4" minutes="1" seconds="19" year="2012" unixtime="1349298079" />
+      <added day="4" month="10" of_week="4" hours="0" minutes="55" seconds="15" year="2012" unixtime="1349298079" />
+      <task_code>'/home/smelovaem/smeagol.src.corrected/Src/smeagol'</task_code>
+      <use_file>/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads/machinefile-11193</use_file>
+      <blocked>0</blocked>
+      <sexe>smeagol</sexe>
+      <stdout>out_03_10_12</stdout>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <force_host></force_host>
+      <pgrp>18913</pgrp>
+      <queue>hddmem</queue>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>1</np>
+      <empty_input>/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads/.cleo-11193-in</empty_input>
+      <node>node-38-10:1</node>
+      <dir>/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/smelovaem/smeagol.src.corrected/Src/smeagol</command>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =217.10.38.72 59438 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =52</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =177</item>
+        <item>PWD =/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =smelovaem</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-intel-x86_64/bin:/home/smelovaem/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =217.10.38.72 59438 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-intel-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/smelovaem</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/smelovaem</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/smelovaem/.local/share</item>
+        <item>USER =smelovaem</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/smelovaem/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/279</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/smelovaem</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-intel-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/smelovaem/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/smelovaem/.bashrc</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>TMPDIR =/tmp/.private/smelovaem</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <attach_mask>.*</attach_mask>
+      <path>/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads</path>
+      <signal>0</signal>
+      <lastowner>hddmem</lastowner>
+      <npextra>7</npextra>
+      <exe>/home/smelovaem/smeagol.src.corrected/Src/smeagol</exe>
+      <priority>10</priority>
+      <state>run</state>
+      <use_rsh_filter></use_rsh_filter>
+      <parent_mask></parent_mask>
+      <seen>0</seen>
+      <out>/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads/smeagol.out-11193</out>
+      <pid>18914</pid>
+      <pe_select>scheduler</pe_select>
+      <user>smelovaem</user>
+      <id>11193</id>
+      <estimated_run>1349412423</estimated_run>
+      <attrs>HASH(0x17304df0)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <pidfile>/tmp/cleo-run-11193-57739</pidfile>
+      <file_mask></file_mask>
+      <nodes>node-38-10:1</nodes>
+      <reserved>0</reserved>
+      <orig_timelimit>270000</orig_timelimit>
+      <task_args>
+        <item>/home/smelovaem/smeagol.src.corrected/Src/smeagol</item>
+      </task_args>
+      <gummy>0</gummy>
+      <status>0</status>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <owner>hddmem</owner>
+      <wait_cond_type>a</wait_cond_type>
+      <rep>/home/smelovaem/Legolas/NanoWire/Au_Co_111_w_0.1/2.8_hddmem/leads/smeagol.rep-11193</rep>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <temp_dir>/tmp/cleo.hddmem.11193</temp_dir>
+      <uniqid>hddmem-1349297715-11193</uniqid>
+    </task>
+    <task id="11214" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-38-05" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-05" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-04" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="6" minutes="23" seconds="37" year="2012" unixtime="1349403817" />
+      <timelimit day="7" month="10" of_week="0" hours="8" minutes="23" seconds="37" year="2012" unixtime="1349403817" />
+      <added day="4" month="10" of_week="4" hours="16" minutes="13" seconds="24" year="2012" unixtime="1349403817" />
+      <task_code>'../_p8_' 'Au16Pd4_top_HO_OH_h_2.in' 'Au16Pd4_top_HO_OH_h_2.out'</task_code>
+      <priority>10</priority>
+      <use_file>/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2/machinefile-11214</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>10900</pid>
+      <out>/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2/_p8_.out-11214</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>anbelna</user>
+      <id>11214</id>
+      <estimated_run>1349452991</estimated_run>
+      <sexe>_p8_</sexe>
+      <attrs>HASH(0x17451a90)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11214-62243</pidfile>
+      <force_host></force_host>
+      <pgrp>10899</pgrp>
+      <nodes>node-38-05:1,node-38-05:2,node-38-05:3,node-38-05:4,node-38-05:5,node-38-05:6,node-38-05:7,node-38-05:8,node-62-04:1,node-62-04:2,node-62-04:3,node-62-04:4,node-62-04:5,node-62-04:6,node-62-04:7,node-62-04:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>180000</orig_timelimit>
+      <task_args>
+        <item>../_p8_</item>
+        <item>Au16Pd4_top_HO_OH_h_2.in</item>
+        <item>Au16Pd4_top_HO_OH_h_2.out</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>16</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2/.cleo-11214-in</empty_input>
+      <node>node-38-05:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>../_p8_ Au16Pd4_top_HO_OH_h_2.in Au16Pd4_top_HO_OH_h_2.out</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =93.180.45.6 59059 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =24</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =80</item>
+        <item>PWD =/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =anbelna</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-intel-x86_64/bin:/home/anbelna/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =93.180.45.6 59059 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-intel-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/anbelna</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/anbelna</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/anbelna/.local/share</item>
+        <item>USER =anbelna</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =3</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/anbelna/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/365</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/anbelna</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-intel-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/anbelna/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/anbelna/.bashrc</item>
+        <item>TMPDIR =/tmp/.private/anbelna</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2/_p8_.rep-11214</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/anbelna/priroda/Au16Pd4_top_HO_OH_h_2</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11214</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349352804-11214</uniqid>
+      <exe>../_p8_</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11227" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-38-01" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-01" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="9" minutes="29" seconds="26" year="2012" unixtime="1349414966" />
+      <timelimit day="6" month="10" of_week="6" hours="15" minutes="29" seconds="26" year="2012" unixtime="1349414966" />
+      <added day="5" month="10" of_week="5" hours="9" minutes="29" seconds="25" year="2012" unixtime="1349414966" />
+      <task_code>'./bin/p' 'hexa24.in' 'hexa24.out'</task_code>
+      <priority>10</priority>
+      <use_file>/home/shamsiev/machinefile-11227</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>15705</pid>
+      <out>/home/shamsiev/p.out-11227</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>shamsiev</user>
+      <id>11227</id>
+      <estimated_run>1349452991</estimated_run>
+      <sexe>p</sexe>
+      <attrs>HASH(0x174ce0d0)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11227-43823</pidfile>
+      <force_host></force_host>
+      <pgrp>15704</pgrp>
+      <nodes>node-38-01:1,node-38-01:2,node-38-01:3,node-38-01:4,node-38-01:5,node-38-01:6,node-38-01:7,node-38-01:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>108000</orig_timelimit>
+      <task_args>
+        <item>./bin/p</item>
+        <item>hexa24.in</item>
+        <item>hexa24.out</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>8</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/shamsiev/.cleo-11227-in</empty_input>
+      <node>node-38-01:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/shamsiev</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>./bin/p hexa24.in hexa24.out</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =46.39.228.223 21685 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =24</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =80</item>
+        <item>PWD =/home/shamsiev</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =shamsiev</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-x86_64/bin:/home/shamsiev/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =46.39.228.223 21685 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/shamsiev</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/shamsiev</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/shamsiev/.local/share</item>
+        <item>USER =shamsiev</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =3</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/shamsiev/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/252</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/shamsiev</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/shamsiev/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/shamsiev/.bashrc</item>
+        <item>TMPDIR =/tmp/.private/shamsiev</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>/home/shamsiev/p.rep-11227</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/shamsiev</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11227</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349414965-11227</uniqid>
+      <exe>./bin/p</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11228" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-41-04" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-04" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="9" minutes="29" seconds="27" year="2012" unixtime="1349414967" />
+      <timelimit day="6" month="10" of_week="6" hours="15" minutes="29" seconds="27" year="2012" unixtime="1349414967" />
+      <added day="5" month="10" of_week="5" hours="9" minutes="29" seconds="26" year="2012" unixtime="1349414967" />
+      <task_code>'./bin/p' 'hexa34.in' 'hexa34.out'</task_code>
+      <priority>10</priority>
+      <use_file>/home/shamsiev/machinefile-11228</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>15712</pid>
+      <out>/home/shamsiev/p.out-11228</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>shamsiev</user>
+      <id>11228</id>
+      <estimated_run>1349452991</estimated_run>
+      <sexe>p</sexe>
+      <attrs>HASH(0x1774b860)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11228-40614</pidfile>
+      <force_host></force_host>
+      <pgrp>15711</pgrp>
+      <nodes>node-41-04:1,node-41-04:2,node-41-04:3,node-41-04:4,node-41-04:5,node-41-04:6,node-41-04:7,node-41-04:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>108000</orig_timelimit>
+      <task_args>
+        <item>./bin/p</item>
+        <item>hexa34.in</item>
+        <item>hexa34.out</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>8</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/shamsiev/.cleo-11228-in</empty_input>
+      <node>node-41-04:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/shamsiev</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>./bin/p hexa34.in hexa34.out</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =46.39.228.223 21685 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =24</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =80</item>
+        <item>PWD =/home/shamsiev</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =shamsiev</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-x86_64/bin:/home/shamsiev/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =46.39.228.223 21685 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/shamsiev</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/shamsiev</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/shamsiev/.local/share</item>
+        <item>USER =shamsiev</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =3</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/shamsiev/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/252</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/shamsiev</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/shamsiev/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/shamsiev/.bashrc</item>
+        <item>TMPDIR =/tmp/.private/shamsiev</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>/home/shamsiev/p.rep-11228</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/shamsiev</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11228</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349414966-11228</uniqid>
+      <exe>./bin/p</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11233" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-41-02" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-02" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-03" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="12" minutes="59" seconds="16" year="2012" unixtime="1349427556" />
+      <timelimit day="6" month="10" of_week="6" hours="22" minutes="19" seconds="16" year="2012" unixtime="1349427556" />
+      <added day="5" month="10" of_week="5" hours="12" minutes="59" seconds="15" year="2012" unixtime="1349427556" />
+      <task_code>'/home/software/FF/firefly.mvapich' '-r' '-f' '-p' '-stdext' '-i' 'c20w20_cage_st.inp' '-o' 'c20w20_cage_st.out'</task_code>
+      <priority>10</priority>
+      <use_file>/home/voroncov/gamess/diamant/spectrum/machinefile-11233</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>2793</pid>
+      <out>/home/voroncov/gamess/diamant/spectrum/firefly.mvapich.out-11233</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>voroncov</user>
+      <id>11233</id>
+      <estimated_run>1349522967</estimated_run>
+      <sexe>firefly.mvapich</sexe>
+      <attrs>HASH(0x1761a4f0)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11233-63271</pidfile>
+      <force_host></force_host>
+      <pgrp>2792</pgrp>
+      <nodes>node-41-02:1,node-41-02:2,node-41-02:3,node-41-02:4,node-41-02:5,node-41-02:6,node-41-02:7,node-41-02:8,node-41-03:1,node-41-03:2,node-41-03:3,node-41-03:4,node-41-03:5,node-41-03:6,node-41-03:7,node-41-03:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>120000</orig_timelimit>
+      <task_args>
+        <item>/home/software/FF/firefly.mvapich</item>
+        <item>-r</item>
+        <item>-f</item>
+        <item>-p</item>
+        <item>-stdext</item>
+        <item>-i</item>
+        <item>c20w20_cage_st.inp</item>
+        <item>-o</item>
+        <item>c20w20_cage_st.out</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>16</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/voroncov/gamess/diamant/spectrum/.cleo-11233-in</empty_input>
+      <node>node-41-02:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/voroncov/gamess/diamant/spectrum</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/software/FF/firefly.mvapich -r -f -p -stdext -i c20w20_cage_st.inp -o c20w20_cage_st.out</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =93.180.45.29 46132 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =24</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =80</item>
+        <item>SSH_AUTH_SOCK =/tmp/ssh-qcomW29669/agent.29669</item>
+        <item>PWD =/home/voroncov/gamess/diamant/spectrum</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =voroncov</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-i586/bin:/home/voroncov/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =93.180.45.29 46132 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-i586/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>DISPLAY =localhost:13.0</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/voroncov</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>OLDPWD =/home/voroncov/gamess/diamant</item>
+        <item>MC_SID =29741</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/voroncov</item>
+        <item>HISTCONTROL =ignorespace</item>
+        <item>MC_TMPDIR =/tmp/.private/voroncov/mc-voroncov</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/voroncov/.local/share</item>
+        <item>USER =voroncov</item>
+        <item>LANG =en_US.utf8</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/voroncov/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/273</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/voroncov</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-i586/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/voroncov/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/voroncov/.bashrc</item>
+        <item>TMPDIR =/tmp/.private/voroncov</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =utf8</item>
+      </env>
+      <rep>/home/voroncov/gamess/diamant/spectrum/firefly.mvapich.rep-11233</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/voroncov/gamess/diamant/spectrum</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11233</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349427555-11233</uniqid>
+      <exe>/home/software/FF/firefly.mvapich</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11241" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-38-02" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-02" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-03" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-04" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-07" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-05" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-07" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-09" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-05" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-06" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-07" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-08" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-09" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="13" minutes="22" seconds="7" year="2012" unixtime="1349428927" />
+      <timelimit day="5" month="10" of_week="5" hours="23" minutes="22" seconds="7" year="2012" unixtime="1349428927" />
+      <added day="5" month="10" of_week="5" hours="13" minutes="19" seconds="38" year="2012" unixtime="1349428927" />
+      <task_code>'/home/aapopov/ff8bt/04/ff8cpcm' '-r' '-f' '-p' '-i' '/home/aapopov/ff8bt/04/Sc3N_b3lyp-svpII.inp' '-o' '/home/aapopov/ff8bt/04/Sc3NC3_b3lyp-svpII-opt.out' '-ex' '/home/aapopov/ff8bt/04/ex' '-t' '/home/aapopov/ff8bt/04/tmp/01'</task_code>
+      <priority>10</priority>
+      <use_file>/home/aapopov/machinefile-11241</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>12517</pid>
+      <out>/home/aapopov/ff8cpcm.out-11241</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>aapopov</user>
+      <id>11241</id>
+      <estimated_run>1349558162</estimated_run>
+      <sexe>ff8cpcm</sexe>
+      <attrs>HASH(0x1730cad0)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11241-9130</pidfile>
+      <force_host></force_host>
+      <pgrp>12516</pgrp>
+      <nodes>node-38-02:1,node-38-02:2,node-38-02:3,node-38-02:4,node-38-02:5,node-38-02:6,node-38-02:7,node-38-02:8,node-38-03:1,node-38-03:2,node-38-03:3,node-38-03:4,node-38-03:5,node-38-03:6,node-38-03:7,node-38-03:8,node-38-04:1,node-38-04:2,node-38-04:3,node-38-04:4,node-38-04:5,node-38-04:6,node-38-04:7,node-38-04:8,node-38-07:1,node-38-07:2,node-38-07:3,node-38-07:4,node-38-07:5,node-38-07:6,node-38-07:7,node-38-07:8,node-41-05:1,node-41-05:2,node-41-05:3,node-41-05:4,node-41-05:5,node-41-05:6,node-41-05:7,node-41-05:8,node-41-07:1,node-41-07:2,node-41-07:3,node-41-07:4,node-41-07:5,node-41-07:6,node-41-07:7,node-41-07:8,node-41-09:1,node-41-09:2,node-41-09:3,node-41-09:4,node-41-09:5,node-41-09:6,node-41-09:7,node-41-09:8,node-62-05:1,node-62-05:2,node-62-05:3,node-62-05:4,node-62-05:5,node-62-05:6,node-62-05:7,node-62-05:8,node-62-06:1,node-62-06:2,node-62-06:3,node-62-06:4,node-62-06:5,node-62-06:6,node-62-06:7,node-62-06:8,node-62-07:1,node-62-07:2,node-62-07:3,node-62-07:4,node-62-07:5,node-62-07:6,node-62-07:7,node-62-07:8,node-62-08:1,node-62-08:2,node-62-08:3,node-62-08:4,node-62-08:5,node-62-08:6,node-62-08:7,node-62-08:8,node-62-09:1,node-62-09:2,node-62-09:3,node-62-09:4,node-62-09:5,node-62-09:6,node-62-09:7,node-62-09:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>36000</orig_timelimit>
+      <task_args>
+        <item>/home/aapopov/ff8bt/04/ff8cpcm</item>
+        <item>-r</item>
+        <item>-f</item>
+        <item>-p</item>
+        <item>-i</item>
+        <item>/home/aapopov/ff8bt/04/Sc3N_b3lyp-svpII.inp</item>
+        <item>-o</item>
+        <item>/home/aapopov/ff8bt/04/Sc3NC3_b3lyp-svpII-opt.out</item>
+        <item>-ex</item>
+        <item>/home/aapopov/ff8bt/04/ex</item>
+        <item>-t</item>
+        <item>/home/aapopov/ff8bt/04/tmp/01</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>96</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/aapopov/.cleo-11241-in</empty_input>
+      <node>node-38-02:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/aapopov</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/aapopov/ff8bt/04/ff8cpcm -r -f -p -i /home/aapopov/ff8bt/04/Sc3N_b3lyp-svpII.inp -o /home/aapopov/ff8bt/04/Sc3NC3_b3lyp-svpII-opt.out -ex /home/aapopov/ff8bt/04/ex -t /home/aapopov/ff8bt/04/tmp/01</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =193.175.202.2 60101 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =43</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =174</item>
+        <item>PWD =/home/aapopov</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =aapopov</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-i586/bin:/home/aapopov/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =vt100</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =193.175.202.2 60101 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-i586/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/aapopov</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/aapopov</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/aapopov/.local/share</item>
+        <item>USER =aapopov</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/aapopov/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/189</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/aapopov</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-i586/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/aapopov/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/aapopov/.bashrc</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>TMPDIR =/tmp/.private/aapopov</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>/home/aapopov/ff8cpcm.rep-11241</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/aapopov</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11241</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349428778-11241</uniqid>
+      <exe>/home/aapopov/ff8bt/04/ff8cpcm</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11244" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-48-05" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-48-05" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-03" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-10" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="14" minutes="47" seconds="55" year="2012" unixtime="1349434075" />
+      <timelimit day="6" month="10" of_week="6" hours="15" minutes="47" seconds="55" year="2012" unixtime="1349434075" />
+      <added day="5" month="10" of_week="5" hours="14" minutes="47" seconds="54" year="2012" unixtime="1349434075" />
+      <task_code>'/home/software/FF/firefly.mvapich' '-r' '-f' '-p' '-stdext' '-i' '/home/novakovskaya/9/w20_dodec.inp' '-o' '/home/novakovskaya/9/w20_dodec.mp2'</task_code>
+      <priority>10</priority>
+      <use_file>/home/novakovskaya/9/machinefile-11244</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>16516</pid>
+      <out>/home/novakovskaya/9/firefly.mvapich.out-11244</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>novakovskaya</user>
+      <id>11244</id>
+      <estimated_run>1349464927</estimated_run>
+      <sexe>firefly.mvapich</sexe>
+      <attrs>HASH(0x1754a710)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11244-13762</pidfile>
+      <force_host></force_host>
+      <pgrp>16515</pgrp>
+      <nodes>node-48-05:1,node-48-05:2,node-48-05:3,node-48-05:4,node-48-05:5,node-48-05:6,node-48-05:7,node-48-05:8,node-62-03:1,node-62-03:2,node-62-03:3,node-62-03:4,node-62-03:5,node-62-03:6,node-62-03:7,node-62-03:8,node-62-10:1,node-62-10:2,node-62-10:3,node-62-10:4,node-62-10:5,node-62-10:6,node-62-10:7,node-62-10:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>90000</orig_timelimit>
+      <task_args>
+        <item>/home/software/FF/firefly.mvapich</item>
+        <item>-r</item>
+        <item>-f</item>
+        <item>-p</item>
+        <item>-stdext</item>
+        <item>-i</item>
+        <item>/home/novakovskaya/9/w20_dodec.inp</item>
+        <item>-o</item>
+        <item>/home/novakovskaya/9/w20_dodec.mp2</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>24</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/novakovskaya/9/.cleo-11244-in</empty_input>
+      <node>node-48-05:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/novakovskaya/9</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/software/FF/firefly.mvapich -r -f -p -stdext -i /home/novakovskaya/9/w20_dodec.inp -o /home/novakovskaya/9/w20_dodec.mp2</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =93.180.45.29 1072 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =24</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =80</item>
+        <item>PWD =/home/novakovskaya/9</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =novakovskaya</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-i586/bin:/home/novakovskaya/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =93.180.45.29 1072 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-i586/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/novakovskaya</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>OLDPWD =/home/novakovskaya</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/novakovskaya</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/novakovskaya/.local/share</item>
+        <item>USER =novakovskaya</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =1</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/novakovskaya/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/106</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/novakovskaya</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-i586/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/novakovskaya/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/novakovskaya/.bashrc</item>
+        <item>TMPDIR =/tmp/.private/novakovskaya</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>/home/novakovskaya/9/firefly.mvapich.rep-11244</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/novakovskaya/9</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11244</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349434074-11244</uniqid>
+      <exe>/home/software/FF/firefly.mvapich</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11245" priority="10" state="run" own="1" queue="hddmem">
+      <nodes>
+        <item node_name="node-38-08" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-38-08" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-41-10" cpu_id="8" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="1" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="2" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="3" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="4" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="5" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="6" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="7" extra="0" type="own" />
+        <item node_name="node-62-02" cpu_id="8" extra="0" type="own" />
+      </nodes>
+      <start day="5" month="10" of_week="5" hours="14" minutes="48" seconds="7" year="2012" unixtime="1349434087" />
+      <timelimit day="7" month="10" of_week="0" hours="0" minutes="8" seconds="7" year="2012" unixtime="1349434087" />
+      <added day="5" month="10" of_week="5" hours="14" minutes="48" seconds="5" year="2012" unixtime="1349434087" />
+      <task_code>'/home/software/FF/firefly.mvapich' '-r' '-f' '-p' '-stdext' '-i' '/home/novakovskaya/8b/c40-nmp.inp' '-o' '/home/novakovskaya/8b/c40-nmp.mp2'</task_code>
+      <priority>10</priority>
+      <use_file>/home/novakovskaya/8b/machinefile-11245</use_file>
+      <state>run</state>
+      <parent_mask></parent_mask>
+      <use_rsh_filter></use_rsh_filter>
+      <pid>16577</pid>
+      <out>/home/novakovskaya/8b/firefly.mvapich.out-11245</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>0</blocked>
+      <user>novakovskaya</user>
+      <id>11245</id>
+      <estimated_run>1349512927</estimated_run>
+      <sexe>firefly.mvapich</sexe>
+      <attrs>HASH(0x174c4900)</attrs>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <pidfile>/tmp/cleo-run-11245-53338</pidfile>
+      <force_host></force_host>
+      <pgrp>16576</pgrp>
+      <nodes>node-38-08:1,node-38-08:2,node-38-08:3,node-38-08:4,node-38-08:5,node-38-08:6,node-38-08:7,node-38-08:8,node-41-10:1,node-41-10:2,node-41-10:3,node-41-10:4,node-41-10:5,node-41-10:6,node-41-10:7,node-41-10:8,node-62-02:1,node-62-02:2,node-62-02:3,node-62-02:4,node-62-02:5,node-62-02:6,node-62-02:7,node-62-02:8</nodes>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <orig_timelimit>120000</orig_timelimit>
+      <task_args>
+        <item>/home/software/FF/firefly.mvapich</item>
+        <item>-r</item>
+        <item>-f</item>
+        <item>-p</item>
+        <item>-stdext</item>
+        <item>-i</item>
+        <item>/home/novakovskaya/8b/c40-nmp.inp</item>
+        <item>-o</item>
+        <item>/home/novakovskaya/8b/c40-nmp.mp2</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>24</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>/home/novakovskaya/8b/.cleo-11245-in</empty_input>
+      <node>node-38-08:1</node>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/novakovskaya/8b</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/software/FF/firefly.mvapich -r -f -p -stdext -i /home/novakovskaya/8b/c40-nmp.inp -o /home/novakovskaya/8b/c40-nmp.mp2</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =93.180.45.29 1072 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =24</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =80</item>
+        <item>PWD =/home/novakovskaya/8b</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =novakovskaya</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-i586/bin:/home/novakovskaya/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =93.180.45.29 1072 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-i586/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/novakovskaya</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>OLDPWD =/home/novakovskaya/9</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/novakovskaya</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/novakovskaya/.local/share</item>
+        <item>USER =novakovskaya</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =1</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/novakovskaya/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/106</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/novakovskaya</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-i586/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/novakovskaya/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/novakovskaya/.bashrc</item>
+        <item>TMPDIR =/tmp/.private/novakovskaya</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>/home/novakovskaya/8b/firefly.mvapich.rep-11245</rep>
+      <attach_mask>.*</attach_mask>
+      <path>/home/novakovskaya/8b</path>
+      <qtype>native_queue</qtype>
+      <no_run_again>1</no_run_again>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.hddmem.11245</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349434085-11245</uniqid>
+      <exe>/home/software/FF/firefly.mvapich</exe>
+      <npextra>0</npextra>
+    </task>
+    <task id="11226" priority="10" state="queued" own="1" queue="hddmem">
+      <block>
+        <who>__internal__</who>
+        <reason>maximum cpu*hours reached</reason>
+      </block>
+      <nodes></nodes>
+      <start day="1" month="1" of_week="4" hours="3" minutes="0" seconds="0" year="1970" unixtime="" />
+      <timelimit day="3" month="1" of_week="0" hours="6" minutes="20" seconds="0" year="0" unixtime="" />
+      <added day="5" month="10" of_week="5" hours="1" minutes="48" seconds="6" year="2012" unixtime="" />
+      <task_code>'/home/smelovaem/smeagol.src.corrected/Src/smeagol'</task_code>
+      <priority>10</priority>
+      <state>queued</state>
+      <use_rsh_filter></use_rsh_filter>
+      <out>$dir/$sexe.out-$id</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>1</blocked>
+      <user>smelovaem</user>
+      <id>11226</id>
+      <estimated_run>1349522967</estimated_run>
+      <sexe>smeagol</sexe>
+      <stdout>out_04_10_12</stdout>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <force_host></force_host>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <task_args>
+        <item>/home/smelovaem/smeagol.src.corrected/Src/smeagol</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>1</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>$dir/.cleo-$id-in</empty_input>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_6_7/trans</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/smelovaem/smeagol.src.corrected/Src/smeagol</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =217.10.38.72 1715 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =52</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =177</item>
+        <item>PWD =/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_6_7/trans</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =smelovaem</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-intel-x86_64/bin:/home/smelovaem/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =xterm</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =217.10.38.72 1715 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-intel-x86_64/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/smelovaem</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/smelovaem</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/smelovaem/.local/share</item>
+        <item>USER =smelovaem</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/smelovaem/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/72</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/smelovaem</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-intel-x86_64/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/smelovaem/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/smelovaem/.bashrc</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>TMPDIR =/tmp/.private/smelovaem</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>$dir/$sexe.rep-$id</rep>
+      <path>/home/smelovaem/Legolas/NanoWire/Au_Co_w_0.2_222_Voltage/2.8_6_7/trans</path>
+      <qtype>native_queue</qtype>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.$queue.$id</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349387286-11226</uniqid>
+      <npextra>0</npextra>
+      <exe>/home/smelovaem/smeagol.src.corrected/Src/smeagol</exe>
+    </task>
+    <task id="11242" priority="10" state="queued" own="1" queue="hddmem">
+      <block>
+        <who>__internal__</who>
+        <reason>maximum cpu*hours reached</reason>
+      </block>
+      <nodes></nodes>
+      <start day="1" month="1" of_week="4" hours="3" minutes="0" seconds="0" year="1970" unixtime="" />
+      <timelimit day="0" month="1" of_week="4" hours="13" minutes="20" seconds="0" year="0" unixtime="" />
+      <added day="5" month="10" of_week="5" hours="13" minutes="24" seconds="0" year="2012" unixtime="" />
+      <task_code>'/home/aapopov/ff8bt/05/ff8cpcm' '-r' '-f' '-p' '-i' '/home/aapopov/ff8bt/05/Y3N_b3lyp-svpII.inp' '-o' '/home/aapopov/ff8bt/05/Y3NC3_b3lyp-svpII-opt.out' '-ex' '/home/aapopov/ff8bt/05/ex' '-t' '/home/aapopov/ff8bt/05/tmp/01'</task_code>
+      <priority>10</priority>
+      <state>queued</state>
+      <use_rsh_filter></use_rsh_filter>
+      <out>$dir/$sexe.out-$id</out>
+      <pe_select>scheduler</pe_select>
+      <blocked>1</blocked>
+      <user>aapopov</user>
+      <id>11242</id>
+      <estimated_run>1349464927</estimated_run>
+      <sexe>ff8cpcm</sexe>
+      <com_line>mpirun_rsh -np $np -hostfile $dir/machinefile-$id VIADEV_USE_AFFINITY=1 $task</com_line>
+      <one_rep>0</one_rep>
+      <occupy_full_node>1</occupy_full_node>
+      <force_host></force_host>
+      <queue>hddmem</queue>
+      <file_mask></file_mask>
+      <reserved>0</reserved>
+      <task_args>
+        <item>/home/aapopov/ff8bt/05/ff8cpcm</item>
+        <item>-r</item>
+        <item>-f</item>
+        <item>-p</item>
+        <item>-i</item>
+        <item>/home/aapopov/ff8bt/05/Y3N_b3lyp-svpII.inp</item>
+        <item>-o</item>
+        <item>/home/aapopov/ff8bt/05/Y3NC3_b3lyp-svpII-opt.out</item>
+        <item>-ex</item>
+        <item>/home/aapopov/ff8bt/05/ex</item>
+        <item>-t</item>
+        <item>/home/aapopov/ff8bt/05/tmp/01</item>
+      </task_args>
+      <core>0</core>
+      <tmpdir>/tmp</tmpdir>
+      <np>96</np>
+      <status>0</status>
+      <gummy>0</gummy>
+      <empty_input>$dir/.cleo-$id-in</empty_input>
+      <use_empty>/usr/bin/empty-cleo</use_empty>
+      <nice></nice>
+      <dir>/home/aapopov</dir>
+      <run_via_mons>0</run_via_mons>
+      <force_proc></force_proc>
+      <is_own>1</is_own>
+      <command>/home/aapopov/ff8bt/05/ff8cpcm -r -f -p -i /home/aapopov/ff8bt/05/Y3N_b3lyp-svpII.inp -o /home/aapopov/ff8bt/05/Y3NC3_b3lyp-svpII-opt.out -ex /home/aapopov/ff8bt/05/ex -t /home/aapopov/ff8bt/05/tmp/01</command>
+      <wait_cond_type>a</wait_cond_type>
+      <owner>hddmem</owner>
+      <env>
+        <item>DYLD_LIBRARY_PATH =/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib</item>
+        <item>SSH_CLIENT =193.175.202.2 60101 22</item>
+        <item>LESS =-MM</item>
+        <item>MPIRUN_CONNECT_TRIES =40</item>
+        <item>LINES =43</item>
+        <item>LESSOPEN =|/usr/share/less/lesspipe.sh %s</item>
+        <item>COLUMNS =174</item>
+        <item>PWD =/home/aapopov</item>
+        <item>VT_MPI =mpich</item>
+        <item>JRE_HOME =/usr/lib/jvm/jre</item>
+        <item>LOGNAME =aapopov</item>
+        <item>I_MPI_JOB_STARTUP_TIMEOUT =10000</item>
+        <item>I_MPI_F77 =ifort</item>
+        <item>QTLIB =/usr/lib64/qt3/lib/</item>
+        <item>PATH =/opt/pgi/linux86-64/2010/bin:/opt/pathscale/bin:/opt/intel/ictce/3.2.2.013/bin:/opt/intel/itac/8.0.0.011/bin:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/Compiler/11.1/059/bin/intel64:/opt/intel/itac/8.0.1.009/bin:/usr/lib/mvapich-gcc-i586/bin:/home/aapopov/bin:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/usr/games:/opt/intel/idbe/10.1.015/bin/</item>
+        <item>INCLUDE =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>TERM =vt100</item>
+        <item>HISTSIZE =999</item>
+        <item>LESSKEY =/etc/.less</item>
+        <item>SSH_CONNECTION =193.175.202.2 60101 93.180.9.31 22</item>
+        <item>MANPATH =/opt/intel/itac/8.0.0.011/man:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/Compiler/11.1/059/man/en_US:/opt/intel/Compiler/11.1/059/mkl/man/en_US:/opt/intel/mkl/10.2.4.032/man/en_US:/opt/intel/itac/8.0.1.009/man:/usr/lib/mvapich-gcc-i586/man::/opt/pathscale/man:/opt/pgi/linux86-64/2010/man</item>
+        <item>MPIRUN_CONNECT_TIMEOUT =15</item>
+        <item>LIBRARY_PATH =/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t</item>
+        <item>I_MPI_EXTRA_FILESYSTEM =enable</item>
+        <item>PDSH_RCMD_TYPE =ssh</item>
+        <item>MAIL =/var/mail/aapopov</item>
+        <item>QTDIR =/usr/lib64/qt3/</item>
+        <item>I_MPI_CC =icc</item>
+        <item>HOSTNAME =t60-2.parallel.ru</item>
+        <item>I_MPI_SPIN_FILE_LOCK =off</item>
+        <item>XDG_DATA_DIRS =/usr/share:/var/cache</item>
+        <item>_ =/usr/bin/cleo-submit</item>
+        <item>LS_COLORS =rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.sh=01;32:*.csh=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</item>
+        <item>SHELL =/bin/bash</item>
+        <item>LIB =/opt/intel/Compiler/11.1/059/ipp/em64t/lib:/opt/intel/Compiler/11.1/059/ipp/em64t/lib:</item>
+        <item>CLASSPATH =/opt/intel/itac/8.0.0.011/itac/lib_mpich:/opt/intel/itac/8.0.1.009/itac/lib_impi4</item>
+        <item>VT_ROOT =/opt/intel/itac/8.0.0.011</item>
+        <item>I_MPI_PIN_DOMAIN =omp</item>
+        <item>PGI =/opt/pgi</item>
+        <item>TMP =/tmp/.private/aapopov</item>
+        <item>QTINC =/usr/lib64/qt3/include/</item>
+        <item>PS_FORMAT =pid,user:12,tty,stat,time,command</item>
+        <item>GTK_PATH =/usr/lib64/gtk-2.0/2.10.0</item>
+        <item>CVS_RSH =ssh</item>
+        <item>XDG_DATA_HOME =/home/aapopov/.local/share</item>
+        <item>USER =aapopov</item>
+        <item>IPPROOT =/opt/intel/Compiler/11.1/059/ipp/em64t</item>
+        <item>G_BROKEN_FILENAMES =1</item>
+        <item>SHLVL =2</item>
+        <item>QS_QUEUE =regular</item>
+        <item>I_MPI_EXTRA_FILESYSTEM_LIST =panfs</item>
+        <item>INTEL_LICENSE_FILE =/opt/intel/licenses:/home/aapopov/intel/licenses</item>
+        <item>SSH_TTY =/dev/pts/189</item>
+        <item>LM_LICENSE_FILE =:/opt/pgi/license.dat</item>
+        <item>CPATH =/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/Compiler/11.1/059/ipp/em64t/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/tbb/include:/opt/intel/tbb/2.1/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>VT_ADD_LIBS =-ldwarf -lelf -lvtunwind -lnsl -lm -ldl -lpthread</item>
+        <item>VT_LIB_DIR =/opt/intel/itac/8.0.0.011/itac/lib_mpich</item>
+        <item>HOME =/home/aapopov</item>
+        <item>FPATH =/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/Compiler/11.1/059/mkl/include:/opt/intel/mkl/10.2.4.032/include</item>
+        <item>LD_LIBRARY_PATH =/opt/pathscale/lib/3.2:/opt/pathscale/lib/3.2/32:/opt/intel/itac/8.0.0.011/itac/slib_mpich:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/Compiler/11.1/059/lib/intel64:/opt/intel/Compiler/11.1/059/ipp/em64t/sharedlib:/opt/intel/Compiler/11.1/059/mkl/lib/em64t:/opt/intel/Compiler/11.1/059/tbb/intel64/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/tbb/2.1/em64t/cc4.1.0_libc2.4_kernel2.6.16.21/lib:/opt/intel/mkl/10.2.4.032/lib/em64t:/opt/intel/itac/8.0.1.009/itac/slib_impi4:/usr/lib/mvapich-gcc-i586/lib:</item>
+        <item>GDK_PIXBUF_MODULEDIR =/usr/lib64/gtk-2.0/2.10.0/loaders</item>
+        <item>HISTFILESIZE =9999</item>
+        <item>XDG_CONFIG_HOME =/home/aapopov/.config</item>
+        <item>I_MPI_F90 =ifort</item>
+        <item>VT_SLIB_DIR =/opt/intel/itac/8.0.0.011/itac/slib_mpich</item>
+        <item>I_MPI_CXX =icpc</item>
+        <item>MKLROOT =/opt/intel/Compiler/11.1/059/mkl</item>
+        <item>BASH_ENV =/home/aapopov/.bashrc</item>
+        <item>NLSPATH =/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/lib/intel64/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/ipp/em64t/lib/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/mkl/lib/em64t/locale/%l_%t/%N:/opt/intel/Compiler/11.1/059/idb/intel64/locale/%l_%t/%N:/opt/intel/mkl/10.2.4.032/lib/em64t/locale/%l_%t/%N</item>
+        <item>TMPDIR =/tmp/.private/aapopov</item>
+        <item>I_MPI_RDMA_BUFFER_SIZE =4096</item>
+        <item>G_FILENAME_ENCODING =iso8859-1</item>
+      </env>
+      <rep>$dir/$sexe.rep-$id</rep>
+      <path>/home/aapopov</path>
+      <qtype>native_queue</qtype>
+      <signal>0</signal>
+      <temp_dir>/tmp/cleo.$queue.$id</temp_dir>
+      <lastowner>hddmem</lastowner>
+      <uniqid>hddmem-1349429040-11242</uniqid>
+      <exe>/home/aapopov/ff8bt/05/ff8cpcm</exe>
+      <npextra>0</npextra>
+    </task>
+  </tasks>
+</cleo-state>
