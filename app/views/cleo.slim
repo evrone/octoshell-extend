@@ -1,2 +1,5 @@
 - template = escape_javascript(slim :'partials/cleo', locals: { result: @script.result })
-| $("#extend").html('#{{template}}');
+| $("#extend").append('#{{template}}');
+| $(function () {
+|   $('#cleo-tabs a:first').tab('show');
+| });

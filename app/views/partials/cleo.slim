@@ -1,10 +1,10 @@
-ul class="nav nav-tabs"
+ul class="nav nav-tabs" id="cleo-tabs"
   li
     a href="#summary" data-toggle="tab" Общая статистика
   
   - result[:queues].each_key do |key|
     li
-      a href="##{key}" data-toggle="tab" key.capitalize
+      a href="##{key}" data-toggle="tab" = key.capitalize
 
 div class="tab-content"
   div class="tab-pane active" id="summary"
@@ -14,30 +14,32 @@ div class="tab-content"
       h4 Узлы
       table class="table table-bordered"
         tr
-          th Свободно
-          th Занято
-          th Заблокировано
-        tr
+          th class="span2" Свободно
           td = queue[:nodes][:free]
+        tr
+          th Занято
           td = queue[:nodes][:busy]
+        tr
+          th Заблокировано
           td = queue[:nodes][:blocked]
       
       h4 Задания
       table class="table table-bordered"
         tr
-          th В очереди
-          th Заблокировано
-          th Всего
-        tr
+          th class="span2" В очереди
           td = queue[:tasks][:queued]
+        tr
+          th Заблокировано
           td = queue[:tasks][:blocked]
+        tr
+          th Всего
           td = queue[:tasks][:total]
       
       h4 Пользователи
       table class="table table-bordered"
         tr
-          th Всего уникальных пользователей
-          th Всего уникальных организаций
-        tr
+          th class="span2" Всего уникальных пользователей
           td = queue[:users].size
+        tr
+          th Всего уникальных организаций
           td = queue[:organizations].size
