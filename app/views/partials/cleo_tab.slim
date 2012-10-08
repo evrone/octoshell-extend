@@ -1,0 +1,33 @@
+div class="tab-pane" id="#{key}"
+  h4 Узлы
+  table class="table table-bordered"
+    tr
+      th class="span2" Свободно
+      td = queue[:nodes][:free]
+    tr
+      th Занято
+      td = queue[:nodes][:busy]
+    tr
+      th Заблокировано
+      td = queue[:nodes][:blocked]
+  
+  h4 Задания
+  table class="table table-bordered"
+    tr
+      th class="span2" В очереди
+      td = queue[:tasks][:queued]
+    tr
+      th Заблокировано
+      td = queue[:tasks][:blocked]
+    tr
+      th Всего
+      td = queue[:tasks][:total]
+  
+  h4 Пользователи
+  table class="table table-bordered"
+    tr
+      th class="span2" Всего уникальных пользователей
+      td = queue[:users].size
+    tr
+      th Всего уникальных организаций
+      td = queue[:organizations].size
