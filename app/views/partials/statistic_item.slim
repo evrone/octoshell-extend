@@ -6,11 +6,10 @@ div class="extend-container"
         th Files
         th Size
     tbody
-      - cluster_users = ClusterUser.where(cluster_project_id: ClusterProject.where(cluster_id: 4).pluck(:id)).to_a
       - stats.each_with_index do |stat, i|
         tr style="#{i < 10 ? "" : "display:none"}"
           td
-            - if cu = cluster_users.find { |cu| cu.username == stat[:username] }
+            - if cu = stat[:cluster_user]
               a href="/cluster_users/#{cu.id}" #{cu.username}
             - else
               = stat[:username]
