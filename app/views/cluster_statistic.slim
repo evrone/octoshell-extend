@@ -1,5 +1,5 @@
 - template = escape_javascript(slim(:'partials/statistic', locals: { script: @script }))
-| $("#extend-stats").append('#{{template}}');
+| $("#extend-stats").html('#{{template}}');
 | $('a.expand-table').unbind('click').bind('click', function(){
 |   $(this).parents('table:first').find('tr').show();
 |   $(this).parents('tr:first').remove();
