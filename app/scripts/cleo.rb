@@ -38,12 +38,15 @@ private
         nodes: {
           free: 0,
           busy: 0,
-          blocked: 0
+          blocked: 0,
+          total: 0
         },
         tasks: {
           total: 0,
           queued: 0,
-          blocked: 0
+          blocked: 0,
+          running: 0,
+          prerun: 0
         },
         users: [],
         organizations: []
