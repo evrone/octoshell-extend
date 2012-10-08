@@ -16,9 +16,12 @@ private
       result[:summary][:nodes][:free]    += result[:queues][file][:nodes][:free]
       result[:summary][:nodes][:busy]    += result[:queues][file][:nodes][:busy]
       result[:summary][:nodes][:blocked] += result[:queues][file][:nodes][:blocked]
+      result[:summary][:nodes][:total]   += result[:queues][file][:nodes][:total]
       result[:summary][:tasks][:total]   += result[:queues][file][:tasks][:total]
       result[:summary][:tasks][:queued]  += result[:queues][file][:tasks][:queued]
       result[:summary][:tasks][:blocked] += result[:queues][file][:tasks][:blocked]
+      result[:summary][:tasks][:running] += result[:queues][file][:tasks][:running]
+      result[:summary][:tasks][:prerun]  += result[:queues][file][:tasks][:prerun]
       result[:summary][:users].push         *result[:queues][file][:users]
       result[:summary][:organizations].push *result[:queues][file][:organizations]
     end
@@ -49,11 +52,10 @@ private
   end
   
   def get_raw(type)
-    dest_path = "/tmp/cleo-xml-status.#{type}"
-    
     if ENV['OCTOSHELL_ENV'] == 'development'
       file = File.read(File.expand_path("../../../spec/data/cleo-xml-status.#{type}.xml", __FILE__))
     else
+      dest_path = "/tmp/cleo-xml-status.#{type}"
       cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:#{dest_path} #{dest_path}")
       cmd.run
       file = File.read(dest_path)
