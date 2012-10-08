@@ -4,3 +4,4 @@ if [ -f "$rvm_path/scripts/rvm" ] && [ -f ".rvmrc" ]; then
 fi
 
 export OCTOSHELL_ENV=development
+export LANG=en_GB.UTF-8

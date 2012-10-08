@@ -1,17 +1,23 @@
 module Cache
   extend ActiveSupport::Concern
   
-  @@cache = {}
-  @@cache_time ||= 5.minutes
+  included do
+    class_variable_set :@@cache, {}
+    unless class_variables.include? :@@cache_time
+      class_variable_set :@@cache_time, 5.minutes
+    end
+  end
   
   def cache
-    if @@cache[:data] && (Time.current < (@@cache[:time] + @@cache_time))
-      @@cache[:data]
+    c = self.class.class_variable_get :@@cache
+    t = self.class.class_variable_get :@@cache_time
+    if c[:data] && (Time.current < (c[:time] + t))
+      c[:data]
     end
   end
   
   def cache=(result)
-    @@cache = { time: Time.current, data: result }
+    self.class.class_variable_set :@@cache, { time: Time.current, data: result }
     result
   end
 end
