@@ -1,0 +1,43 @@
+ul class="nav nav-tabs"
+  li
+    a href="#summary" data-toggle="tab" Общая статистика
+  
+  - result[:queues].each_key do |key|
+    li
+      a href="##{key}" data-toggle="tab" key.capitalize
+
+div class="tab-content"
+  div class="tab-pane active" id="summary"
+  
+  - result[:queues].each do |key, queue|
+    div class="tab-pane" id="#{key}"
+      h4 Узлы
+      table class="table table-bordered"
+        tr
+          th Свободно
+          th Занято
+          th Заблокировано
+        tr
+          td = queue[:nodes][:free]
+          td = queue[:nodes][:busy]
+          td = queue[:nodes][:blocked]
+      
+      h4 Задания
+      table class="table table-bordered"
+        tr
+          th В очереди
+          th Заблокировано
+          th Всего
+        tr
+          td = queue[:tasks][:queued]
+          td = queue[:tasks][:blocked]
+          td = queue[:tasks][:total]
+      
+      h4 Пользователи
+      table class="table table-bordered"
+        tr
+          th Всего уникальных пользователей
+          th Всего уникальных организаций
+        tr
+          td = queue[:users].size
+          td = queue[:organizations].size

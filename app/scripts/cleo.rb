@@ -19,14 +19,12 @@ private
       result[:summary][:tasks][:total]   += result[:queues][file][:tasks][:total]
       result[:summary][:tasks][:queued]  += result[:queues][file][:tasks][:queued]
       result[:summary][:tasks][:blocked] += result[:queues][file][:tasks][:blocked]
-      result[:summary][:users].push *result[:queues][file][:users]
+      result[:summary][:users].push         *result[:queues][file][:users]
+      result[:summary][:organizations].push *result[:queues][file][:organizations]
     end
     
     result[:summary][:users].uniq!
-    
-    organizations = ClusterProject.where(username: result[:summary][:users]).
-      includes(project: :organization).map { |cp| cp.project.organization }.uniq
-    result[:summary][:organizations] = organizations
+    result[:summary][:organizations].uniq!
     result
   end
   
@@ -53,10 +51,14 @@ private
   def get_raw(type)
     dest_path = "/tmp/cleo-xml-status.#{type}"
     
-    cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:#{dest_path} #{dest_path}")
-    cmd.run
-    file = File.read(dest_path)
-    File.unlink(dest_path)
+    if ENV['OCTOSHELL_ENV'] == 'development'
+      file = File.read(File.expand_path("../../../spec/data/cleo-xml-status.#{type}.xml", __FILE__))
+    else
+      cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:#{dest_path} #{dest_path}")
+      cmd.run
+      file = File.read(dest_path)
+      File.unlink(dest_path)
+    end
     file
   end
   
@@ -83,16 +85,21 @@ private
         tasks:   []
       }
       
-      h['tasks']['task'].each do |task|
-        res[:users] << task['user']
-        res[:tasks][:tasks] << {
-          id:      task['id'],
-          user:    task['user'],
-          state:   task['state'],
-          name:    task['sexe'],
-          blocked: task['blocked'].to_i == 1
-        }
-      end if h['tasks']['task']
+      if h['tasks']['task']
+        h['tasks']['task'].each do |task|
+          res[:users] << task['user']
+          res[:tasks][:tasks] << {
+            id:      task['id'],
+            user:    task['user'],
+            state:   task['state'],
+            name:    task['sexe'],
+            blocked: task['blocked'].to_i == 1
+          }
+        end 
+      
+        res[:organizations] = ClusterProject.where(username: res[:users]).
+          includes(project: :organization).map { |cp| cp.project.organization }.uniq
+      end
       res
     end
   end
