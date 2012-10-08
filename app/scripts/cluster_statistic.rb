@@ -1,4 +1,6 @@
 class ClusterStatistic
+  include Cache
+  
   attr_reader :result, :error
   
   def run
@@ -22,16 +24,18 @@ class ClusterStatistic
 private
   
   def get_stats
-    if ENV['OCTOSHELL_ENV'] == 'development'
-      dest_path = File.expand_path("../../../spec/data/du_last.csv", __FILE__)
-      CSV.read(dest_path, col_sep: ':')
-    else
-      dest_path = '/tmp/du_last'
-      cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
-      cmd.run
-      csv = CSV.read(dest_path, col_sep: ':')
-      File.unlink(dest_path)
-      csv
+    self.cache ||= begin
+      if ENV['OCTOSHELL_ENV'] == 'development'
+        dest_path = File.expand_path("../../../spec/data/du_last.csv", __FILE__)
+        CSV.read(dest_path, col_sep: ':')
+      else
+        dest_path = '/tmp/du_last'
+        cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru:/root/du_last #{dest_path}")
+        cmd.run
+        csv = CSV.read(dest_path, col_sep: ':')
+        File.unlink(dest_path)
+        csv
+      end
     end
   end
   

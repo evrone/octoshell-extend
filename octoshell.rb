@@ -8,6 +8,10 @@ class Octoshell < Sinatra::Base
         key: "_mgu_session",
         secret: "3d3bc09c12b68b78f694a99d6d915c176e17497e81cee098312b1e483914df203b9d537606d5cea6df5f63eaa44fd36aad9ab1b0b6209da42f8e2821e580dbf0"
   
+  configure do
+    enable :logging
+  end
+  
   helpers do
     def escape_javascript(javascript)
       if javascript

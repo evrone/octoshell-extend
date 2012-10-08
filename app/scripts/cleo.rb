@@ -1,4 +1,6 @@
 class Cleo
+  include Cache
+  
   attr_reader :result
   
   FILES = %w(bigmem hddmem test hdd regular)
@@ -10,25 +12,27 @@ class Cleo
 private
 
   def get_result
-    result = result_template
-    FILES.each do |file|
-      result[:queues][file] = send(file)
-      result[:summary][:nodes][:free]    += result[:queues][file][:nodes][:free]
-      result[:summary][:nodes][:busy]    += result[:queues][file][:nodes][:busy]
-      result[:summary][:nodes][:blocked] += result[:queues][file][:nodes][:blocked]
-      result[:summary][:nodes][:total]   += result[:queues][file][:nodes][:total]
-      result[:summary][:tasks][:total]   += result[:queues][file][:tasks][:total]
-      result[:summary][:tasks][:queued]  += result[:queues][file][:tasks][:queued]
-      result[:summary][:tasks][:blocked] += result[:queues][file][:tasks][:blocked]
-      result[:summary][:tasks][:running] += result[:queues][file][:tasks][:running]
-      result[:summary][:tasks][:prerun]  += result[:queues][file][:tasks][:prerun]
-      result[:summary][:users].push         *result[:queues][file][:users]
-      result[:summary][:organizations].push *result[:queues][file][:organizations]
-    end
+    self.cache ||= begin
+      result = result_template
+      FILES.each do |file|
+        result[:queues][file] = send(file)
+        result[:summary][:nodes][:free]    += result[:queues][file][:nodes][:free]
+        result[:summary][:nodes][:busy]    += result[:queues][file][:nodes][:busy]
+        result[:summary][:nodes][:blocked] += result[:queues][file][:nodes][:blocked]
+        result[:summary][:nodes][:total]   += result[:queues][file][:nodes][:total]
+        result[:summary][:tasks][:total]   += result[:queues][file][:tasks][:total]
+        result[:summary][:tasks][:queued]  += result[:queues][file][:tasks][:queued]
+        result[:summary][:tasks][:blocked] += result[:queues][file][:tasks][:blocked]
+        result[:summary][:tasks][:running] += result[:queues][file][:tasks][:running]
+        result[:summary][:tasks][:prerun]  += result[:queues][file][:tasks][:prerun]
+        result[:summary][:users].push         *result[:queues][file][:users]
+        result[:summary][:organizations].push *result[:queues][file][:organizations]
+      end
     
-    result[:summary][:users].uniq!
-    result[:summary][:organizations].uniq!
-    result
+      result[:summary][:users].uniq!
+      result[:summary][:organizations].uniq!
+      result
+    end
   end
   
   def result_template
