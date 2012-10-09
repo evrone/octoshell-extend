@@ -3,26 +3,22 @@ class RemoteClusterUser
   
   def run(params)
     cu = ClusterUser.find(params[:page][%r{/cluster_users/(\d+)}, 1])
-    group = cu.cluster_project.username
-    groups = get_groups
-    @result = groups[groups] && groups[groups].include?(cu.username)
+    @result = get_users.include?(cu.username)
   end
   
 private
   
-  def get_groups
-    Hash[raw.each_line.map do |line|
-      parse = line.split(/(\w+):x:(\d+):(.*)/)
-      group, raw_users = parse[1], parse[3]
-      [group, raw_users.split(',')]
-    end]
+  def get_users
+    raw.each_line.map do |line|
+      line[/(\w+):/, 1]
+    end
   end
   
   def raw
     if ENV['OCTOSHELL_ENV'] == 'development'
-      File.read(File.expand_path('../../../spec/data/groups', __FILE__))
+      File.read(File.expand_path('../../../spec/data/passwd', __FILE__))
     else
-      cmd = Cocaine::CommandLine.new('ssh', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru cat /etc/group")
+      cmd = Cocaine::CommandLine.new('ssh', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru cat /etc/passwd")
       cmd.run
     end
   end
