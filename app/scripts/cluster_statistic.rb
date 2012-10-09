@@ -3,7 +3,7 @@ class ClusterStatistic
   
   attr_reader :result, :error
   
-  def run
+  def run(params)
     @csv = begin
       self.cache ||= format_stats(get_stats)
     end

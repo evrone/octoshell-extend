@@ -5,7 +5,7 @@ class Cleo
   
   FILES = %w(bigmem hddmem test hdd regular)
   
-  def run
+  def run(params)
     @result = get_result
   end
   

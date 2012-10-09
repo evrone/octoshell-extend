@@ -64,7 +64,7 @@ class Octoshell < Sinatra::Base
   get '/run/:name' do |name|
     render = proc do
       @script = name.camelize.constantize.new
-      @script.run
+      @script.run(params)
       content_type 'text/plain'
       slim name.to_sym
     end
