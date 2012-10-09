@@ -82,8 +82,6 @@ private
 end
 
 class KeyProcedure < Procedure
-  MAX_RAND=1000000000
-  
   def host
     cluster.host
   end
