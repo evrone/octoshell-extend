@@ -16,7 +16,7 @@ private
     cmd = Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} #{path} octo@t60.parallel.ru:#{path}")
     $logger.info cmd.command
     cmd.run
-    exec = "/usr/octo/check_openkey #{username} #{path}"
+    exec = "sudo /usr/octo/check_openkey #{username} #{path}"
     cmd = Cocaine::CommandLine.new('ssh', "-i #{SSH_KEY_PATH} octo@t60.parallel.ru #{exec}")
     $logger.info cmd.command
     cmd.run
