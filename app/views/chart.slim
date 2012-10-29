@@ -1,5 +1,7 @@
+| $('#extend-chart').html('');
+| $('#extend-chart').height('200px');
 | Morris.Line({
-|   element: 'extend',
+|   element: 'extend-chart',
 |   data: #{{@script.result.to_json}},
 |   xkey: 'time',
 |   ykeys: ['usage'],
