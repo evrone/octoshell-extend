@@ -15,7 +15,7 @@ preload_app true
 # nuke workers after 30 seconds instead of 60 seconds (the default)
 timeout 30
 
-pid "/tmp/unicorn.octoshel-extend.pid"
+pid "/tmp/unicorn.octoshell-extend.pid"
 
 # Help ensure your application will always spawn in the symlinked
 # "current" directory that Capistrano sets up.
