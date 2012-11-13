@@ -1,9 +1,12 @@
-require 'bundler/capistrano'
-require "rvm/capistrano"
-require 'capistrano-resque'
+set :rbenv_ruby_version, "1.9.3-p286"
+set :default_environment, {
+  'PATH' => "$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH",
+  'RBENV_VERSION' => rbenv_ruby_version
+}
+set :bundle_flags, "--deployment --quiet --binstubs --shebang ruby-local-exec"
+set :rake, "bin/rake"
 
-set :rvm_type, :system
-set :rvm_ruby_string, '1.9.3@octoshell-extend'
+require 'bundler/capistrano'
 
 set :application, "octoshell-extend"
 set :domain, "evrone@v1.parallel.ru"
@@ -15,12 +18,10 @@ set :keep_releases, 3
 set :scm, :git
 set :rack_env, 'production'
 set :ssh_options, { forward_agent: true }
-set :workers, { "task_requests" => 1 }
 
 role :app, domain
 role :web, domain
 role :db,  domain, :primary => true
-role :resque_worker, domain
 
 before "deploy", "deploy:add_ssh_key"
 before "deploy:migrations", "deploy:add_ssh_key"
@@ -28,16 +29,15 @@ before "deploy:migrations", "deploy:add_ssh_key"
 # set :whenever_command, "bundle exec whenever"
 # require "whenever/capistrano"
 
-require 'capistrano-unicorn'
-
-after "deploy:restart", "resque:restart"
-
 namespace :deploy do
   task :add_ssh_key do
     run "ssh-add /home/evrone/.ssh/octoshell-extend"
   end
   
+  desc "Restart Unicorn and Resque"
   task :restart do
+    run "sv restart ~/services/octoshell_extend_unicorn"
+    run "sv restart ~/services/octoshell_extend_resque"
   end
   
   desc "Make symlinks"
