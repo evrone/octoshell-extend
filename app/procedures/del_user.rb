@@ -4,7 +4,7 @@ class DelUser < UserProcedure
     @comment="Del user: #{project_login} on #{host} with #{attrs}\n"
 
 #    @comment += `ssh -i #{SSH_KEY_PATH} octo@#{host} ./octo_add_user #{project_login}`
-    @comment += `ssh -i #{SSH_KEY_PATH} octo@#{host} sudo /usr/octo/del_user #{user_login}`
+    @comment += `ssh -t -i #{SSH_KEY_PATH} octo@#{host} sudo /usr/octo/del_user #{user_login}`
 
     $?.exitstatus == 0
   end

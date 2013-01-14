@@ -23,7 +23,7 @@ class AddOpenkey < KeyProcedure
     end
     File.unlink(path)
 
-    line=Cocaine::CommandLine.new('ssh', "-i #{SSH_KEY_PATH} octo@#{host} sudo /usr/octo/add_openkey  #{user_login} #{path}")
+    line=Cocaine::CommandLine.new('ssh', "-t -i #{SSH_KEY_PATH} octo@#{host} sudo /usr/octo/add_openkey  #{user_login} #{path}")
     begin
       @comment << line.run
     rescue Cocaine::ExitStatusError => e
