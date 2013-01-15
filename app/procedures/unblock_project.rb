@@ -1,4 +1,8 @@
 class UnblockProject < ProjectProcedure
+  def cluster_user_logins
+    cluster_project.cluster_users.pluck(:username)
+  end
+  
   def perform
 
     cluster_user_logins.each do |login|
