@@ -1,6 +1,6 @@
 class UnblockProject < ProjectProcedure
   def cluster_user_logins
-    cluster_project.cluster_users.pluck(:username)
+    cluster_project.cluster_users.where("state = 'active'").pluck(:username)
   end
 
   def perform
