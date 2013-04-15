@@ -11,7 +11,7 @@ require 'bundler/capistrano'
 set :application, "octoshell-extend"
 set :domain, "evrone@v1.parallel.ru"
 set :repository,  "git@github.com:evrone/octoshell-extend.git"
-set :branch, "master"
+set :branch, "production"
 set :use_sudo, false
 set :deploy_to, "/var/www/#{application}"
 set :keep_releases, 3
