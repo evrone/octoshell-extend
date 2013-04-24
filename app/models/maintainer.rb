@@ -6,17 +6,18 @@ end
 
 module Server
   class Group
-    attr_reader :host, :name, :state
+    attr_reader :host, :name, :request_state, :project_state
     
-    def initialize(name, host, state)
+    def initialize(name, host, request_state, project_state)
       @name = name
       @host = host
-      @state = state
+      @request_state = request_state
+      @project_state = project_state
     end
     
     def synchronize
-      case state
-      when :active, :blocked
+      case project_state
+      when :active
         ensure_activing
       when :closed
         ensure_closing
@@ -69,25 +70,20 @@ module Server
       @cluster_state = cluster_state
     end
     
-    def synchronize
-      case access_state
-      when :allowed then
-        ensure_presence
-        case cluster_state
-        when :active then
-          ensure_activing
-        when :blocked then
-          ensure_blocking
-        when :closed then
-          ensure_closing
-        end
-      when :denied then
-        ensure_blocking
-      end
+    def allowed?
+      access_state == :allowed && cluster_state == :active
     end
     
-    def available?
-      access_state == :allowed && cluster_state != :active
+    def synchronize
+      if group.project_state == :active
+        if allowed? && group.request_state == :active
+          ensure_activing
+        else
+          ensure_blocking
+        end
+      else
+        ensure_closing
+      end
     end
     
   private
@@ -140,7 +136,7 @@ module Server
     
     def synchronize
       case true
-      when user.available? && state == :active then
+      when user.allowed? && state == :active && user.group.project_state == :active
         ensure_activing
       when :closed then
         ensure_closing
@@ -197,7 +193,8 @@ class Maintainer
     @group = Server::Group.new(
       request.group_name,
       request.cluster.host,
-      request.state.to_sym
+      request.state.to_sym,
+      request.project.state.to_sym
     )
     
     @users, @keys = [], []
