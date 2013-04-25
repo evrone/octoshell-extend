@@ -231,24 +231,24 @@ class Maintainer
   end
   
   def maintain!
-    if group.project_state == :active
-      case group.request_state
+    if @group.project_state == :active
+      case @group.request_state
       when :active
-        users.each do |user|
+        @users.each do |user|
           if user.allowed?
-            u.ensure_activing
-            keys.synchronize
+            user.ensure_activing
+            @keys.synchronize
           else
-            u.ensure_blocking
+            user.ensure_blocking
           end
         end
-        keys.each &:ensure_activing
+        @keys.each &:ensure_activing
       when :blocked, :closed
-        users.each &:ensure_blocking
+        @users.each &:ensure_blocking
       end
     else
-      group.ensure_closing
-      users.each &:ensure_closing
+      @group.ensure_closing
+      @users.each &:ensure_closing
     end
   end
 end
