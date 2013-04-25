@@ -231,8 +231,24 @@ class Maintainer
   end
   
   def maintain!
-    @group.synchronize
-    @users.each &:synchronize
-    @keys.each &:synchronize
+    if group.project_state == :active
+      case group.request_state
+      when :active
+        users.each do |user|
+          if user.allowed?
+            u.ensure_activing
+            keys.synchronize
+          else
+            u.ensure_blocking
+          end
+        end
+        keys.each &:ensure_activing
+      when :blocked, :closed
+        users.each &:ensure_blocking
+      end
+    else
+      group.ensure_closing
+      users.each &:ensure_closing
+    end
   end
 end
