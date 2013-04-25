@@ -1,3 +1,6 @@
+require 'cocaine'
+require 'shellwords'
+
 module Cocaine
   def self.build(cmd)
     CommandLine.new 'ssh', "-t -i #{SSH_KEY_PATH} #{cmd}"
@@ -10,7 +13,7 @@ module Server
     
     def initialize(name, host, request_state, project_state)
       @name = name
-      @host = host
+      @host = 'v2.parallel.ru' # host
       @request_state = request_state
       @project_state = project_state
     end
@@ -35,7 +38,7 @@ module Server
     end
     
     def add_group
-      cmd = Cocaine.build("octo@#{host} sudo /usr/octo/add_group #{name}")
+      cmd = Cocaine.build("evrone@#{host} sudo /usr/octo/add_group #{name}")
       cmd.run
       cmd.exit_status.zero? || raise
     end
@@ -51,7 +54,7 @@ module Server
     
     def groups
       @groups ||= begin
-        cmd = Cocaine.build("octo@#{host} cat /etc/group")
+        cmd = Cocaine.build("evrone@#{host} cat /etc/group")
         raw = cmd.run
         raw.each_line.map do |line|
           line[/(\w+):/, 1]
@@ -61,7 +64,7 @@ module Server
   end
   
   class User
-    attr_reader :access_state, :cluster_state
+    attr_reader :access_state, :cluster_state, :group, :name
     
     def initialize(name, group, access_state, cluster_state)
       @name  = name
@@ -97,31 +100,43 @@ module Server
     end
     
     def ensure_closing
-      active? && remove
+      (not closed?) && remove
     end
     
     def ensure_blocking
-      block? || block
+      blocked? || block
     end
     
-    def presence?
-      
+    def closed?
+      check_user == 'closed'
+    end
+    
+    def active?
+      check_user == 'active'
+    end
+    
+    def check_user
+      Cocaine.build("evrone@#{group.host} sudo /usr/octo/check_user #{name} #{group.name}").run
+    end
+    
+    def blocked?
+      check_user == 'blocked'
     end
     
     def add
-      Cocaine.build("octo@#{host} sudo /usr/octo/add_user #{user_login} #{project_login}").run
+      Cocaine.build("evrone@#{group.host} sudo /usr/octo/add_user #{name} #{group.name}").run
     end
     
     def remove
-      Cocaine.build("octo@#{host} sudo /usr/octo/del_user #{user_login} #{project_login}").run
+      Cocaine.build("evrone@#{group.host} sudo /usr/octo/del_user #{name} #{group.name}").run
     end
     
     def block
-      Cocaine.build("octo@#{host} sudo /usr/octo/block_user #{user_login}")
+      Cocaine.build("evrone@#{group.host} sudo /usr/octo/block_user #{name}")
     end
     
     def unblock
-      Cocaine.build("octo@#{host} sudo /usr/octo/unblock_user #{name}").run
+      Cocaine.build("evrone@#{group.host} sudo /usr/octo/unblock_user #{name}").run
     end
   end
   
@@ -146,40 +161,38 @@ module Server
   private
     
     def ensure_activing
-      persisted?(key) || add
+      persisted? || add
     end
     
     def ensure_closing
-      persisted?(key) && remove_key
+      persisted? && remove
     end
     
     def remove
       key_command do |path|
-        Cocaine.build "octo@#{host} sudo /usr/octo/del_openkey  #{name} #{path}"
+        Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/del_openkey  #{user.name} #{path}"
       end
     end
     
     def persisted?
       key_command do |path|
-        Cocaine.build "octo@#{host} sudo /usr/octo/check_openkey #{name} #{path}"
-      end
+        Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/check_openkey #{user.name} #{path}"
+      end == 'ok'
     end
     
-    def add_key(key)
+    def add
       key_command do |path|
-        Cocaine.build "octo@#{host} sudo /usr/octo/add_openkey #{user_login} #{path}"
+        Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/add_openkey #{user.name} #{path}"
       end
     end
     
-    def key_command(key)
-      key = key.shellescape
+    def key_command
+      key = @value.shellescape
       path = "/tmp/octo-#{SecureRandom.hex}"
-      File.open(path, 'w+') { |f| f.write key }
-      Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} #{path} octo@#{host}:#{path}").run
+      File.open(path, 'wb') { |f| f.write key }
+      Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} #{path} evrone@#{user.group.host}:#{path}").run
       cmd = yield(path)
-      cmd.run
-      File.unlink(path)
-      cmd.exit_status.zero? || raise
+      cmd.run.chomp
     end
   end
 end
@@ -199,10 +212,10 @@ class Maintainer
     
     @users, @keys = [], []
     
-    request.accounts.each do |a|
+    request.project.accounts.each do |a|
       user = Server::User.new(
         a.username,
-        group,
+        @group,
         a.access_state.to_sym,
         a.cluster_state.to_sym
       )
@@ -218,8 +231,8 @@ class Maintainer
   end
   
   def maintain!
-    group.synchronize
-    users.each &:synchronize
-    keys.each &:synchronize
+    @group.synchronize
+    @users.each &:synchronize
+    @keys.each &:synchronize
   end
 end
