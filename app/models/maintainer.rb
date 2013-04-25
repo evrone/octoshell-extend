@@ -153,8 +153,6 @@ module Server
       end
     end
     
-  private
-    
     def ensure_activing
       persisted? || add
     end
@@ -163,6 +161,7 @@ module Server
       persisted? && remove
     end
     
+    private
     def remove
       key_command do |path|
         Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/del_openkey  #{user.name} #{path}"
@@ -232,7 +231,7 @@ class Maintainer
         @users.each do |user|
           if user.allowed?
             user.ensure_activing
-            @keys.synchronize
+            @keys.each &:synchronize
           else
             user.ensure_blocking
           end
