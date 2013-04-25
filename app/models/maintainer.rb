@@ -27,8 +27,6 @@ module Server
       end
     end
     
-  private
-    
     def ensure_activing
       active? || add_group
     end
@@ -36,7 +34,8 @@ module Server
     def ensure_closing
       active? && delete_group
     end
-    
+  
+    private
     def add_group
       cmd = Cocaine.build("evrone@#{host} sudo /usr/octo/add_group #{name}")
       cmd.run
@@ -123,7 +122,7 @@ module Server
     end
     
     def remove
-      Cocaine.build("evrone@#{group.host} sudo /usr/octo/del_user #{name} #{group.name}").run
+      Cocaine.build("evrone@#{group.host} sudo /usr/octo/del_user #{name}").run
     end
     
     def block
