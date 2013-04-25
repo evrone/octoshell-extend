@@ -89,12 +89,6 @@ module Server
       end
     end
     
-  private
-    
-    def ensure_presence
-      presence? || add
-    end
-    
     def ensure_activing
       active? || (blocked? ? unblock : add)
     end
@@ -107,6 +101,7 @@ module Server
       blocked? || block
     end
     
+    private
     def closed?
       check_user == 'closed'
     end
