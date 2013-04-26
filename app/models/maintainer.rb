@@ -1,13 +1,19 @@
 require 'cocaine'
 require 'shellwords'
 
-module Cocaine
-  def self.build(cmd)
-    CommandLine.new 'ssh', "-t -i #{SSH_KEY_PATH} #{cmd}"
-  end
-end
-
 module Server
+  class Connection
+    def initialize(host)
+      @host = host
+    end
+    
+    def run(cmd)
+      Net::SSH.start(@host, 'octo', keys: [SSH_KEY_PATH]) do |ssh|
+        ssh.exec!(cmd).chomp
+      end
+    end
+  end
+  
   class Group
     attr_reader :host, :name, :request_state, :project_state
     
@@ -37,9 +43,7 @@ module Server
   
     private
     def add_group
-      cmd = Cocaine.build("evrone@#{host} sudo /usr/octo/add_group #{name}")
-      cmd.run
-      cmd.exit_status.zero? || raise
+      @connection.run("sudo /usr/octo/add_group #{name}")
     end
     
     def delete_group
@@ -53,8 +57,7 @@ module Server
     
     def groups
       @groups ||= begin
-        cmd = Cocaine.build("evrone@#{host} cat /etc/group")
-        raw = cmd.run
+        raw = @connection.run("cat /etc/group")
         raw.each_line.map do |line|
           line[/(\w+):/, 1]
         end
@@ -110,7 +113,7 @@ module Server
     end
     
     def check_user
-      Cocaine.build("evrone@#{group.host} sudo /usr/octo/check_user #{name} #{group.name}").run
+      @connection.run("sudo /usr/octo/check_user #{name} #{group.name}")
     end
     
     def blocked?
@@ -118,19 +121,19 @@ module Server
     end
     
     def add
-      Cocaine.build("evrone@#{group.host} sudo /usr/octo/add_user #{name} #{group.name}").run
+      @connection.run("sudo /usr/octo/add_user #{name} #{group.name}")
     end
     
     def remove
-      Cocaine.build("evrone@#{group.host} sudo /usr/octo/del_user #{name}").run
+      @connection.run("sudo /usr/octo/del_user #{name}")
     end
     
     def block
-      Cocaine.build("evrone@#{group.host} sudo /usr/octo/block_user #{name}")
+      @connection.run("sudo /usr/octo/block_user #{name}")
     end
     
     def unblock
-      Cocaine.build("evrone@#{group.host} sudo /usr/octo/unblock_user #{name}").run
+      @connection.run("sudo /usr/octo/unblock_user #{name}")
     end
   end
   
@@ -163,19 +166,19 @@ module Server
     private
     def remove
       key_command do |path|
-        Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/del_openkey  #{user.name} #{path}"
+        @connection.run("sudo /usr/octo/del_openkey #{user.name} #{path}")
       end
     end
     
     def persisted?
       key_command do |path|
-        Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/check_openkey #{user.name} #{path}"
+        @connection.run("sudo /usr/octo/check_openkey #{user.name} #{path}")
       end == 'ok'
     end
     
     def add
       key_command do |path|
-        Cocaine.build "evrone@#{user.group.host} sudo /usr/octo/add_openkey #{user.name} #{path}"
+        @connection.run("sudo /usr/octo/add_openkey #{user.name} #{path}")
       end
     end
     
@@ -184,8 +187,7 @@ module Server
       path = "/tmp/octo-#{SecureRandom.hex}"
       File.open(path, 'wb') { |f| f.write key }
       Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} #{path} evrone@#{user.group.host}:#{path}").run
-      cmd = yield(path)
-      cmd.run.chomp
+      yield(path)
     end
   end
 end
