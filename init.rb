@@ -6,7 +6,6 @@ require 'sinatra'
 require 'slim'
 require 'active_record'
 require 'active_support'
-require 'resque'
 require 'logger'
 require 'file-tail'
 

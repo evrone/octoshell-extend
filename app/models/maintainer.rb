@@ -3,12 +3,14 @@ require 'shellwords'
 
 module Server
   class Connection
-    def initialize(host)
+    def initialize(host, user = 'octo', keys: [SSH_KEY_PATH])
       @host = host
+      @user = user
+      @keys = keys
     end
     
     def run(cmd)
-      Net::SSH.start(@host, 'octo', keys: [SSH_KEY_PATH]) do |ssh|
+      Net::SSH.start(@host, @user, keys: @keys) do |ssh|
         ssh.exec!(cmd).chomp
       end
     end
@@ -22,6 +24,7 @@ module Server
       @host = 'v2.parallel.ru' # host
       @request_state = request_state
       @project_state = project_state
+      @connection = Connection.new(host)
     end
     
     def synchronize
@@ -73,6 +76,7 @@ module Server
       @group = group
       @access_state = access_state
       @cluster_state = cluster_state
+      @connection = Connection.new(group.host)
     end
     
     def allowed?
@@ -144,6 +148,7 @@ module Server
       @value = value
       @user  = user
       @state = state
+      @connection = Connection.new(user.group.host)
     end
     
     def synchronize
