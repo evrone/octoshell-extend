@@ -226,18 +226,22 @@ class Maintainer
   end
   
   def maintain!
+    p "Maintain #{@request.id}"
     if @group.project_state == :active
+      p "Project is active"
       case @group.request_state
       when :active
+        p "Request is active"
         @users.each do |user|
           if user.allowed?
+            p "User is allowed"
             user.ensure_activing
             @keys.each &:synchronize
           else
+            p "User is disallowed"
             user.ensure_blocking
           end
         end
-        @keys.each &:ensure_activing
       when :blocked, :closed
         @users.each &:ensure_blocking
       end
