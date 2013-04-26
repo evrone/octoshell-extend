@@ -5,16 +5,16 @@ module Server
   class Connection
     def initialize(host, user = 'octo', keys: [SSH_KEY_PATH])
       @host = 'v2.parallel.ru' # host
-      @user = user
+      @user = 'evrone' # user
       @keys = keys
     end
     
     def run(cmd)
-      cmd = Cocaine::CommandLine.new("ssh", "#{@user}@#{@host} -i #{SSH_KEY_PATH} -t #{cmd}")
-      cmd.run.chomp
-      # ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
-      #   ssh.exec!(cmd).chomp
-      # end
+      # cmd = Cocaine::CommandLine.new("ssh", "#{@user}@#{@host} -i #{SSH_KEY_PATH} -t #{cmd}")
+      # cmd.run.chomp
+      ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
+        ssh.exec!(cmd).chomp
+      end
     end
   end
   
