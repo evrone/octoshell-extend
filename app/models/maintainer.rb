@@ -10,7 +10,7 @@ module Server
     end
     
     def run(cmd)
-      Net::SSH.start(@host, @user, keys: @keys) do |ssh|
+      ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
         ssh.exec!(cmd).chomp
       end
     end
