@@ -1,5 +1,6 @@
 require 'cocaine'
 require 'shellwords'
+require 'net/ssh'
 
 module Server
   class Connection
