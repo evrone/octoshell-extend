@@ -63,7 +63,7 @@ module Server
     def add_group
       cmd = "sudo /usr/octo/add_group #{name}"
       out = @connection.run(cmd)
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
     end
     
     def delete_group
@@ -136,7 +136,7 @@ module Server
     def check_user
       cmd = "sudo /usr/octo/check_user #{name} #{group.name}"
       out = @connection.run(cmd)
-      %w(active closed blocked).include?(out) || raise Fail.new(cmd, out)
+      %w(active closed blocked).include?(out) || raise(Fail.new(cmd, out))
       out
     end
     
@@ -147,28 +147,28 @@ module Server
     def add
       cmd = "sudo /usr/octo/add_user #{name} #{group.name}"
       out = @connection.run(cmd)
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
       put
     end
     
     def remove
       cmd = "sudo /usr/octo/del_user #{name}"
       out = @connection.run(cmd)
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
       out
     end
     
     def block
       cmd = "sudo /usr/octo/block_user #{name}"
       out = @connection.run(cmd)
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
       out
     end
     
     def unblock
       cmd = "sudo /usr/octo/unblock_user #{name}"
       out = @connection.run(cmd)
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
       out
     end
   end
@@ -207,7 +207,7 @@ module Server
         cmd = "sudo /usr/octo/del_openkey #{user.name} #{path}"
         @connection.run(cmd)
       end
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
     end
     
     def persisted?
@@ -216,7 +216,7 @@ module Server
         cmd = "sudo /usr/octo/check_openkey #{user.name} #{path}"
         @connection.run(cmd)
       end
-      ['not found', 'found'].include?(out) || raise Fail.new(cmd, out)
+      ['not found', 'found'].include?(out) || raise(Fail.new(cmd, out))
       out == 'found'
     end
     
@@ -226,7 +226,7 @@ module Server
         cmd = "sudo /usr/octo/add_openkey #{user.name} #{path}"
         @connection.run(cmd)
       end
-      out == 'ok' || raise Fail.new(cmd, out)
+      out == 'ok' || raise(Fail.new(cmd, out))
     end
     
     def key_command
