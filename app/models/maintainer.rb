@@ -31,7 +31,10 @@ module Server
         p "command: #{cmd}"
         ssh.open_channel do |channel|
           channel.request_pty do |ch, success|
-            res = ch.exec!(cmd).to_s.chomp
+            ch.exec cmd
+          end
+          channel.on_data do |ch, data|
+            res = data.chomp
           end
         end
       end
