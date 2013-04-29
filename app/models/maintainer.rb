@@ -19,7 +19,7 @@ module Server
   end
   
   class Connection
-    def initialize(host, user = 'octo', keys: [SSH_KEY_PATH])
+    def initialize(host, user = 'octo', keys = [SSH_KEY_PATH])
       @host = host
       @user = user
       @keys = keys
