@@ -14,7 +14,7 @@ module Server
     end
     
     def message
-      "Failed command: #{@cmd}. Out: #{@msg}"
+      "Failed command: #{@cmd}.\nOut: #{@msg}"
     end
   end
   
