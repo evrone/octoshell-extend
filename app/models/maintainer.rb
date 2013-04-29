@@ -14,7 +14,7 @@ module Server
       # cmd = Cocaine::CommandLine.new("ssh", "#{@user}@#{@host} -i #{SSH_KEY_PATH} -t #{cmd}")
       # cmd.run.chomp
       ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
-        ssh.exec!(cmd).chomp
+        ssh.exec!(cmd).to_s.chomp
       end
     end
   end
@@ -181,7 +181,7 @@ module Server
     def persisted?
       key_command do |path|
         @connection.run("sudo /usr/octo/check_openkey #{user.name} #{path}")
-      end == 'ok'
+      end == 'found'
     end
     
     def add
