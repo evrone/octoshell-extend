@@ -4,7 +4,7 @@ $failed = false
 threads = Cluster.all.map do |cluster|
   Thread.new do
     loop do
-      $failed && return
+      $failed && break
       
       begin
         if request = Request.where(cluster_id: cluster.id).for_maintain
