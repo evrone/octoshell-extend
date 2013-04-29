@@ -5,6 +5,7 @@ require 'net/ssh'
 module Server
   class Fail < StandardError
     def initialize(cmd, msg = "")
+      @cmd = cmd
       @msg = msg
     end
     
@@ -13,7 +14,7 @@ module Server
     end
     
     def message
-      "Failed command: #{cmd}. Out: #{msg}"
+      "Failed command: #{@cmd}. Out: #{@msg}"
     end
   end
   
