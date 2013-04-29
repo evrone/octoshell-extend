@@ -3,6 +3,16 @@ require 'shellwords'
 require 'net/ssh'
 
 module Server
+  class Fail < StandardError
+    def initialize(cmd, msg = "")
+      @msg = msg
+    end
+    
+    def message
+      "Failed command: #{cmd}. Out: #{msg}"
+    end
+  end
+  
   class Connection
     def initialize(host, user = 'octo', keys: [SSH_KEY_PATH])
       @host = host
@@ -11,9 +21,13 @@ module Server
     end
     
     def run(cmd)
+      res = ""
       ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
-        ssh.exec!(cmd).to_s.chomp
+        p "command: #{cmd}"
+        res = ssh.exec!(cmd).to_s.chomp
       end
+      p "result: #{res}"
+      res
     end
   end
   
@@ -47,7 +61,9 @@ module Server
   
     private
     def add_group
-      @connection.run("sudo /usr/octo/add_group #{name}")
+      cmd = "sudo /usr/octo/add_group #{name}"
+      out = @connection.run(cmd)
+      out == 'ok' || raise Fail.new(cmd, out)
     end
     
     def delete_group
@@ -118,7 +134,10 @@ module Server
     end
     
     def check_user
-      @connection.run("sudo /usr/octo/check_user #{name} #{group.name}")
+      cmd = "sudo /usr/octo/check_user #{name} #{group.name}"
+      out = @connection.run(cmd)
+      %w(active closed blocked).include?(out) || raise Fail.new(cmd, out)
+      out
     end
     
     def blocked?
@@ -126,19 +145,31 @@ module Server
     end
     
     def add
-      @connection.run("sudo /usr/octo/add_user #{name} #{group.name}")
+      cmd = "sudo /usr/octo/add_user #{name} #{group.name}"
+      out = @connection.run(cmd)
+      out == 'ok' || raise Fail.new(cmd, out)
+      put
     end
     
     def remove
-      @connection.run("sudo /usr/octo/del_user #{name}")
+      cmd = "sudo /usr/octo/del_user #{name}"
+      out = @connection.run(cmd)
+      out == 'ok' || raise Fail.new(cmd, out)
+      out
     end
     
     def block
-      @connection.run("sudo /usr/octo/block_user #{name}")
+      cmd = "sudo /usr/octo/block_user #{name}"
+      out = @connection.run(cmd)
+      out == 'ok' || raise Fail.new(cmd, out)
+      out
     end
     
     def unblock
-      @connection.run("sudo /usr/octo/unblock_user #{name}")
+      cmd = "sudo /usr/octo/unblock_user #{name}"
+      out = @connection.run(cmd)
+      out == 'ok' || raise Fail.new(cmd, out)
+      out
     end
   end
   
@@ -171,21 +202,31 @@ module Server
     
     private
     def remove
-      key_command do |path|
-        @connection.run("sudo /usr/octo/del_openkey #{user.name} #{path}")
+      cmd = ""
+      out = key_command do |path|
+        cmd = "sudo /usr/octo/del_openkey #{user.name} #{path}"
+        @connection.run(cmd)
       end
+      out == 'ok' || raise Fail.new(cmd, out)
     end
     
     def persisted?
-      key_command do |path|
-        @connection.run("sudo /usr/octo/check_openkey #{user.name} #{path}")
-      end == 'found'
+      cmd = ""
+      out = key_command do |path|
+        cmd = "sudo /usr/octo/check_openkey #{user.name} #{path}"
+        @connection.run(cmd)
+      end
+      ['not found', 'found'].include?(out) || raise Fail.new(cmd, out)
+      out == 'found'
     end
     
     def add
-      key_command do |path|
-        @connection.run("sudo /usr/octo/add_openkey #{user.name} #{path}")
+      cmd = ""
+      out = key_command do |path|
+        cmd = "sudo /usr/octo/add_openkey #{user.name} #{path}"
+        @connection.run(cmd)
       end
+      out == 'ok' || raise Fail.new(cmd, out)
     end
     
     def key_command
