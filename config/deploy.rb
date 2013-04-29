@@ -9,7 +9,7 @@ set :rake, "bin/rake"
 require 'bundler/capistrano'
 
 set :application, "octoshell-extend"
-set :domain, "evrone@v2.parallel.ru" # v1.parallel.ru
+set :domain, "evrone@v1.parallel.ru"
 set :repository,  "git@github.com:evrone/octoshell-extend.git"
 set :branch, "master" # production
 set :use_sudo, false
@@ -23,20 +23,10 @@ role :app, domain
 role :web, domain
 role :db,  domain, :primary => true
 
-# before "deploy", "deploy:add_ssh_key"
-# before "deploy:migrations", "deploy:add_ssh_key"
-
-# set :whenever_command, "bundle exec whenever"
-# require "whenever/capistrano"
-
 namespace :deploy do
-  # task :add_ssh_key do
-  #   run "ssh-add /home/evrone/.ssh/octoshell-extend"
-  # end
-  # 
   desc "Restart Unicorn and Resque"
   task :restart do
-    # run "sv restart ~/services/octoshell_extend_unicorn"
+    run "sv restart ~/services/octoshell_extend_unicorn"
   end
   
   desc "Make symlinks"
