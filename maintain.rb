@@ -1,6 +1,7 @@
 require File.expand_path('../init', __FILE__)
 
 $failed = false
+$error
 threads = Cluster.all.map do |cluster|
   Thread.new do
     loop do
@@ -15,8 +16,9 @@ threads = Cluster.all.map do |cluster|
           ).update_all(maintain_requested_at: nil)
         end
         sleep 1
-      rescue Server::Fail
+      rescue Server::Fail => e
         $failed = true
+        $error = e.message
         Thread.current.exit
       end
     end
@@ -24,5 +26,4 @@ threads = Cluster.all.map do |cluster|
 end
 
 threads.each &:join
-
-
+p $error
