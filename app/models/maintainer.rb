@@ -55,7 +55,7 @@ module Server
     end
     
     def log(msg)
-      @request.write_log(msg)
+      @request.cluster.log(msg)
     end
     
     def synchronize
@@ -285,7 +285,7 @@ class Maintainer
   end
   
   def log(msg)
-    @request.write_log(msg)
+    @request.cluster.log(msg)
   end
   
   def maintain!
