@@ -5,14 +5,12 @@ require 'net/ssh'
 module Server
   class Connection
     def initialize(host, user = 'octo', keys: [SSH_KEY_PATH])
-      @host = 'v2.parallel.ru' # host
-      @user = 'evrone' # user
+      @host = host
+      @user = user
       @keys = keys
     end
     
     def run(cmd)
-      # cmd = Cocaine::CommandLine.new("ssh", "#{@user}@#{@host} -i #{SSH_KEY_PATH} -t #{cmd}")
-      # cmd.run.chomp
       ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
         ssh.exec!(cmd).to_s.chomp
       end
@@ -24,7 +22,7 @@ module Server
     
     def initialize(name, host, request_state, project_state)
       @name = name
-      @host = 'v2.parallel.ru' # host
+      @host = host
       @request_state = request_state
       @project_state = project_state
       @connection = Connection.new(host)
