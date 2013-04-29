@@ -25,6 +25,10 @@ module Server
       @keys = keys
     end
     
+    def log(msg)
+      Thread.current[:cluster].log(msg)
+    end
+    
     def run(cmd)
       res = ""
       ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
@@ -52,10 +56,6 @@ module Server
       @request_state = request.state.to_sym
       @project_state = project.state.to_sym
       @connection = Connection.new(host)
-    end
-    
-    def log(msg)
-      @request.cluster.log(msg)
     end
     
     def synchronize
@@ -285,7 +285,7 @@ class Maintainer
   end
   
   def log(msg)
-    @request.cluster.log(msg)
+    Thread.current[:cluster].log(msg)
   end
   
   def maintain!

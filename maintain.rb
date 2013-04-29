@@ -2,6 +2,7 @@ require File.expand_path('../init', __FILE__)
 
 threads = Cluster.all.map do |cluster|
   Thread.new do
+    Thread.current[:cluster] = cluster
     loop do
       begin
         if request = Request.where(cluster_id: cluster.id).for_maintain
