@@ -26,4 +26,4 @@ threads = Cluster.all.map do |cluster|
 end
 
 threads.each &:join
-p $error
+puts $error
