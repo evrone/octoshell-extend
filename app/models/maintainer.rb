@@ -28,7 +28,7 @@ module Server
     def run(cmd)
       res = ""
       ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
-        p "command: #{cmd}"
+        log "command: #{cmd}"
         ssh.open_channel do |channel|
           channel.request_pty do |ch, success|
             ch.exec cmd
@@ -38,7 +38,7 @@ module Server
           end
         end
       end
-      p "result: #{res}"
+      log "result: #{res}"
       res
     end
   end
@@ -46,12 +46,16 @@ module Server
   class Group
     attr_reader :host, :name, :request_state, :project_state
     
-    def initialize(name, host, request_state, project_state)
+    def initialize(name, host, request, project)
       @name = name
       @host = host
-      @request_state = request_state
-      @project_state = project_state
+      @request_state = request.state.to_sym
+      @project_state = project.state.to_sym
       @connection = Connection.new(host)
+    end
+    
+    def log(msg)
+      @request.write_log(msg)
     end
     
     def synchronize
@@ -260,8 +264,8 @@ class Maintainer
     @group = Server::Group.new(
       request.group_name,
       request.cluster.host,
-      request.state.to_sym,
-      request.project.state.to_sym
+      request,
+      request.project
     )
     
     @users, @keys = [], []
@@ -275,29 +279,29 @@ class Maintainer
       )
       @users << user
       a.user.credentials.each do |c|
-        @keys << Server::Key.new(
-          c.public_key,
-          user,
-          c.state.to_sym
-        )
+        @keys << Server::Key.new(c.public_key, user, c.state.to_sym)
       end
     end
   end
   
+  def log(msg)
+    @request.write_log(msg)
+  end
+  
   def maintain!
-    p "Maintain #{@request.id}"
+    log "Maintain #{@request.id}"
     if @group.project_state == :active
-      p "Project is active"
+      log "Project is active"
       case @group.request_state
       when :active
-        p "Request is active"
+        log "Request is active"
         @users.each do |user|
           if user.allowed?
-            p "User is allowed"
+            log "User is allowed"
             user.ensure_activing
             @keys.each &:synchronize
           else
-            p "User is disallowed"
+            log "User is disallowed"
             user.ensure_blocking
           end
         end

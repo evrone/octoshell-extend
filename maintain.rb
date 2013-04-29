@@ -1,12 +1,8 @@
 require File.expand_path('../init', __FILE__)
 
-$failed = false
-$error = ""
 threads = Cluster.all.map do |cluster|
   Thread.new do
     loop do
-      $failed && break
-      
       begin
         if request = Request.where(cluster_id: cluster.id).for_maintain
           m = Maintainer.new(request)
@@ -17,13 +13,12 @@ threads = Cluster.all.map do |cluster|
         end
         sleep 1
       rescue Server::Fail => e
-        $failed = true
-        $error = e.message
-        Thread.current.exit
+        request.log = request.log.to_s + "#{Time.now} #{e.message}"
+        request.save!
+        sleep 5
       end
     end
   end
 end
 
 threads.each &:join
-puts $error
