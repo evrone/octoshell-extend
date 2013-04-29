@@ -1,7 +1,7 @@
 require File.expand_path('../init', __FILE__)
 
 $failed = false
-$error
+$error = ""
 threads = Cluster.all.map do |cluster|
   Thread.new do
     loop do
