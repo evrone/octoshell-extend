@@ -8,6 +8,10 @@ module Server
       @msg = msg
     end
     
+    def to_s
+      message
+    end
+    
     def message
       "Failed command: #{cmd}. Out: #{msg}"
     end
