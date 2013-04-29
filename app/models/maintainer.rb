@@ -242,7 +242,7 @@ module Server
     end
     
     def key_command
-      key = @value.shellescape
+      key = @value
       path = "/tmp/octo-#{SecureRandom.hex}"
       File.open(path, 'wb') { |f| f.write key }
       Cocaine::CommandLine.new('scp', "-i #{SSH_KEY_PATH} #{path} octo@#{user.group.host}:#{path}").run
