@@ -29,7 +29,11 @@ module Server
       res = ""
       ::Net::SSH.start(@host, @user, keys: @keys) do |ssh|
         p "command: #{cmd}"
-        res = ssh.exec!(cmd).to_s.chomp
+        ssh.open_channel do |channel|
+          channel.request_pty do |ch, success|
+            res = ch.exec!(cmd).to_s.chomp
+          end
+        end
       end
       p "result: #{res}"
       res
