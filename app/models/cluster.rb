@@ -9,6 +9,6 @@ class Cluster < ActiveRecord::Base
   has_many :logs
   
   def log(msg)
-    logs.create! "#{Time.now} #{msg}"
+    logs.create! msg
   end
 end

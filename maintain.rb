@@ -14,8 +14,7 @@ threads = Cluster.all.map do |cluster|
         end
         sleep 1
       rescue Server::Fail => e
-        request.log = request.log.to_s + "#{Time.now} #{e.message}"
-        request.save!
+        request.cluster.log e.message
         sleep 5
       end
     end
