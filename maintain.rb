@@ -4,6 +4,7 @@ threads = Cluster.all.map do |cluster|
   Thread.new do
     Thread.current[:cluster] = cluster
     loop do
+      p "#{cluster.id} tick"
       begin
         if request = Request.where(cluster_id: cluster.id).for_maintain
           m = Maintainer.new(request)
@@ -15,6 +16,9 @@ threads = Cluster.all.map do |cluster|
         sleep 1
       rescue Server::Fail => e
         cluster.log e.message
+        sleep 5
+      rescue => e
+        p e
         sleep 5
       end
     end
