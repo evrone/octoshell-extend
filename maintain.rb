@@ -15,10 +15,10 @@ threads = Cluster.all.map do |cluster|
         sleep 1
       rescue Server::Fail => e
         cluster.log e.message
-        sleep 5
+        sleep 5 * 60
       rescue => e
         cluster.log e.to_s
-        sleep 5
+        sleep 5 * 60
       end
     end
   end
