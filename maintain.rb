@@ -19,6 +19,7 @@ threads = Cluster.all.map do |cluster|
         sleep 5
       rescue => e
         p e
+        puts e.backtrace.join("\n")
         sleep 5
       end
     end

@@ -164,7 +164,7 @@ module Server
       cmd = "sudo /usr/octo/add_user #{name} #{group.name}"
       out = @connection.run(cmd)
       out == 'ok' || raise(Fail.new(cmd, out))
-      put
+      out
     end
     
     def remove
