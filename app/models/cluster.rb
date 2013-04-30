@@ -9,6 +9,6 @@ class Cluster < ActiveRecord::Base
   has_many :logs
   
   def log(msg)
-    logs.create! { |l| l.message = msg }
+    logs.create! { |l| l.message = msg[0..250] }
   end
 end
