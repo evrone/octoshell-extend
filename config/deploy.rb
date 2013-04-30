@@ -37,6 +37,7 @@ namespace :deploy do
   desc "Restart Unicorn and Resque"
   task :restart do
     run "sv restart ~/services/octoshell_extend_unicorn"
+    run "sv restart ~/services/octoshell_extend_maintainer"
   end
   
   desc "Make symlinks"
