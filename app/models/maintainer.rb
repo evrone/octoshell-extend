@@ -299,7 +299,7 @@ class Maintainer
           if user.allowed?
             log "User is allowed"
             user.ensure_activing
-            @keys.each &:synchronize
+            @keys.find_all { |k| k.user == user }.each &:synchronize
           else
             log "User is disallowed"
             user.ensure_blocking
