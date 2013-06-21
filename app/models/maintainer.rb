@@ -272,7 +272,7 @@ class Maintainer
     
     request.project.accounts.each do |a|
       user = Server::User.new(
-        a.username,
+        a.login,
         @group,
         a.access_state.to_sym,
         a.cluster_state.to_sym
