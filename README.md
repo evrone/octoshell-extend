@@ -1,13 +1,22 @@
-# Bootstrap
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED
+# Octoshell extend
 
-## Install PostgreSQL 9 and setup db
+<a href="https://evrone.com/?utm_source=github.com">
+  <img src="https://evrone.com/logo/evrone-sponsored-logo.png"
+       alt="Sponsored by Evrone" width="231">
+</a>
+
+## Getting Started
+### Prerequisites
+
+Install PostgreSQL 9 and setup db
 
 ~~~
 createdb octoshell_developement
 createuser octoshell
 ~~~
 
-## Install rvm and ruby
+Install rvm and ruby
 
 <https://rvm.io/rvm/install/>
 
@@ -15,29 +24,7 @@ createuser octoshell
 rvm install 1.9.3
 ~~~
 
-## Clone Project
-
-~~~
-git clone git@github.com:evrone/octoshell-extend.git
-~~~
-
-## Install gems
-
-~~~
-cd octoshell-extend
-bundle
-~~~
-
-## Start
-
-### Testing procedures
-
-~~~bash
-irb -I.
-require 'init'
-procedure = AddUser.new(task)
-procedure.perform 
-~~~
+### Usage
 
 For add new procedure you should add `new_procedure.rb` file to `app/procedures` with the following code:
 
@@ -50,13 +37,6 @@ end
 ~~~
 
 `perform` method should return a boolean result.
-
-### Testing helper scripts
-
-~~~bash
-unicorn
-open http://0.0.0.0:8080
-~~~
 
 For add new helper you should add `new_script.rb` file to `app/scripts` with the following code:
 
@@ -114,8 +94,45 @@ h4 Template:
 
 That's it!
 
-### Deploy
+## Running the tests
+
+Testing procedures
+
+~~~bash
+irb -I.
+require 'init'
+procedure = AddUser.new(task)
+procedure.perform 
+~~~
+
+Testing helper scripts
+
+~~~bash
+unicorn
+open http://0.0.0.0:8080
+~~~
+
+## Deployment
 
 ~~~bash
 cap deploy
 ~~~
+
+## Contributing
+
+Please read [Code of Conduct](CODE-OF-CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md) for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, 
+see the [tags on this repository](https://github.com/evrone/octoshell-extend/tags). 
+
+## Authors
+
+* [Jan Bernacki](https://github.com/releu) - *Initial work*
+
+See also the list of [contributors](https://github.com/evrone/octoshell-extend/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
